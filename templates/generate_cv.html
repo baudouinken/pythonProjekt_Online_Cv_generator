@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block style %}
+    <style>
+        .col{
+            border: 1px solid black;
+            height:  auto;
+        }
+        .col-photo{
+            height: 340px;
+        }
+    </style>
+ {% endblock %}
+
+
+{% block content %}
+
+    <p>Seite zum CV generieren</p>
+
+    <div class="container">
+        <!-- Top -->
+        <div class="row">
+            <div class="col-4 col cv-top-img">
+                <div class="col-12 col col-photo">
+                    Photo <br>
+                    <iframe src="../static/template1/template1_photo.html" frameborder="0" height="300px"></iframe>
+                </div>
+                <div class="col-12 col">
+                    Name <br>
+                    <iframe src="../static/template1/template1_name.html" frameborder="0" height="300px"></iframe>
+                </div>
+                <div class="col-12 col">
+                    Contact <br>
+                    <iframe src="../static/template1/template1_adress.html" frameborder="0" height="300px"></iframe>
+                </div>
+                <div class="col-12 col">
+                    Skills <br>
+                    <iframe src="../static/template1/template1_skills.html" frameborder="0" height="310px"></iframe>
+                </div>
+            </div>
+            <div class="col-8 col cv-top-info">
+                <div class="col-12 col">
+                    About <br><br><br><br><br><br><br>
+                </div>
+                <div class="col-12 col">
+                    Experience <br><br><br><br><br><br><br><br><br><br>
+                </div>
+                <div class="col-12 col">
+                    Education <br><br><br><br><br><br><br><br><br><br><br>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="row">
+            <div>
+
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}

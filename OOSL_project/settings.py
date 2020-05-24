@@ -29,6 +29,9 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
+STATICFILES_DIRS = [
+    "static"
+]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -39,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
    # 'django_phonenumber_field-4.0.0.dist-info',
     'cvsite',
+
 ]
 
 MIDDLEWARE = [

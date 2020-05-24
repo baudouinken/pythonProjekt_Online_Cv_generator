@@ -16,6 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from cvsite.views import get_home, get_cv_generator
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', get_home, name = 'home_page'),
+    path('generate_cv/', get_cv_generator, name='genarate_template'),
 ]
