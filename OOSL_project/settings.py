@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
    # 'django_phonenumber_field-4.0.0.dist-info',
     'cvsite',
+    'bootstrap4',
 
 ]
 
