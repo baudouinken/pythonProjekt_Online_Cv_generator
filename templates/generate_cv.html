@@ -188,29 +188,8 @@
                 </div>
                 <div class="col-12 col">
                     Education <br>
-
                     <div id="carouselEducation" class="carousel slide" data-interval="false">
-                      <div class="carousel-inner">
-                        <div class="carousel-item active">
-                          <iframe src="../static/template1/template1_education.html" class="d-block w-100" frameborder="0" height="400px auto" width="650px"></iframe>
-                        </div>
-                        <div class="carousel-item">
-                          <iframe src="../static/template1/template1_education.html" class="d-block w-100" frameborder="0" height="400px auto" width="650px"></iframe>
-                        </div>
-                        <div class="carousel-item">
-                          <iframe src="../static/template1/template1_education.html" class="d-block w-100" frameborder="0" height="400px auto" width="650px"></iframe>
-                        </div>
-                      </div>
-                      <a class="carousel-control-prev" href="#carouselEducation" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a class="carousel-control-next" href="#carouselEducation" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                      </a>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -222,6 +201,29 @@
             </div>
         </div>
     </div>
+
+
+    <script>
+
+        //education carousel
+        const edu = "<div class=\"carousel-inner\">\n" +
+            {% for e in edu %}
+                "<div class=\"carousel-item\">\n" +
+                "<iframe src=\"../static/template1/{{ e }}\" class=\"d-block w-100\" frameborder=\"0\" height=\"400px auto\" width=\"650px\"></iframe>\n" +
+                "</div>\n" +
+            {% endfor %}
+            "</div>\n" +
+            "<a class=\"carousel-control-prev\" href=\"#carouselEducation\" role=\"button\" data-slide=\"prev\">\n" +
+            "<span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n" +
+            "<span class=\"sr-only\">Previous</span>\n" +
+            "</a>\n" +
+            "<a class=\"carousel-control-next\" href=\"#carouselEducation\" role=\"button\" data-slide=\"next\">\n" +
+            "<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n" +
+            "<span class=\"sr-only\">Next</span>\n" +
+            "</a>";
+        $("#carouselEducation").html(edu)
+        $("#carouselEducation .carousel-item").first().addClass("active")
+    </script>
 
 
 {% endblock %}
