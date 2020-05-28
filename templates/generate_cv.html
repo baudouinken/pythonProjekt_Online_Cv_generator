@@ -7,64 +7,35 @@
             border: 0px solid black;
             height:  auto;
         }
-        .col-photo{
-            height: auto;
+
+        /* darker arrows */
+        .carousel-control-next-icon {
+            background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
         }
-    .carousel-control-next-icon {
-        background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
-    }
-    .carousel-control-prev-icon {
-        background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
-    }
+        .carousel-control-prev-icon {
+            background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
+        }
     </style>
  {% endblock %}
 
 
 {% block content %}
 
-    <p>Personalisieren Sie Ihren Lebenslauf!</p>
+    <h2 class="text-center display-3 mb-5"> {{ page_title }}</h2>
 
     <div class="container">
         <!-- Top -->
         <div class="row">
             <div class="col-4 col cv-top-img">
-                <div class="col-12 col col-photo">
-                    Photo <br>
-                    <div id="carouselPhoto" class="carousel slide" data-interval="false">
-                    </div>
-                </div>
-                <div class="col-12 col">
-                    Name <br>
-                    <div id="carouselName" class="carousel slide" data-interval="false">
-                    </div>
-                </div>
-                <div class="col-12 col">
-                    Contact <br>
-                    <div id="carouselAdress" class="carousel slide" data-interval="false">
-                    </div>
-                </div>
-                <div class="col-12 col">
-                    Skills <br>
-                    <div id="carouselSkills" class="carousel slide" data-interval="false">
-                    </div>
-                </div>
+                <div id="carouselPhoto" class="col-12 col col-photo carousel slide" data-interval="false"></div>
+                <div id="carouselName" class="col-12 col carousel slide" data-interval="false"></div>
+                <div id="carouselAdress" class="col-12 col carousel slide" data-interval="false"></div>
+                <div id="carouselSkills" class="col-12 col carousel slide" data-interval="false"></div>
             </div>
             <div class="col-8 col cv-top-info">
-                <div class="col-12 col">
-                    About <br>
-                    <div id="carouselAbout" class="carousel slide" data-interval="false">
-                    </div>
-                </div>
-                <div class="col-12 col">
-                    Experience <br>
-                    <div id="carouselExperience" class="carousel slide" data-interval="false">
-                    </div>
-                </div>
-                <div class="col-12 col">
-                    Education <br>
-                    <div id="carouselEducation" class="carousel slide" data-interval="false">
-                    </div>
-                </div>
+                <div id="carouselAbout" class="col-12 col carousel slide" data-interval="false"></div>
+                <div id="carouselExperience" class="col-12 col carousel slide" data-interval="false"></div>
+                <div id="carouselEducation" class="col-12 col carousel slide" data-interval="false"></div>
             </div>
         </div>
 
@@ -84,8 +55,9 @@
                     {% if id == key %}
                         {% for template in value %}
                             edu += "<div class=\"carousel-item\">\n" +
-                            "<iframe src=\"../static/template1/{{ template }}\" class=\"d-block w-100\" frameborder=\"0\" height=\"400px auto\" width=\"650px\"></iframe>\n" +
-                            "</div>\n"
+                                "<iframe src=\"../static/template1/{{ template }}\" class=\"d-block w-100\" " +
+                                "frameborder=\"0\" ></iframe>\n" +
+                                "</div>\n"
                         {% endfor %}
                     {% endif %}
                 {% endfor %}
@@ -98,10 +70,24 @@
                 "<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n" +
                 "<span class=\"sr-only\">Next</span>\n" +
                 "</a>";
-            console.log(edu)
-            $("#carousel{{ id }}").html(edu)
-            $("#carousel{{ id }} .carousel-item").first().addClass("active")
+            $('#carousel{{ id }}').html(edu)
+            $('#carousel{{ id }} .carousel-item').first().addClass('active')
         {% endfor %}
+
+        // resize iframes on start when DOM loaded
+        $(function(){
+            $('.carousel-item.active iframe').each(function() {
+                $(this).get(0).style.height = $(this).get(0).contentWindow.document.documentElement.scrollHeight + 'px';
+            })
+        });
+
+        // resize iframes after slide
+        $('.carousel').each(function() {
+            $(this).on('slid.bs.carousel', function(ev) {
+                var iframe = $(ev.relatedTarget).find('iframe').get(0)
+                iframe.style.height = iframe.contentWindow.document.documentElement.scrollHeight + 'px';
+            })
+        })
     </script>
 
 
