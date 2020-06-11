@@ -32,6 +32,7 @@
                 <div id="carouselName" class="col-12 col carousel slide" data-interval="false"></div>
                 <div id="carouselAdress" class="col-12 col carousel slide" data-interval="false"></div>
                 <div id="carouselSkills" class="col-12 col carousel slide" data-interval="false"></div>
+                <div id="carouselLanguage" class="col-12 col carousel slide" data-interval="false"></div>
             </div>
             <div class="col-8 col cv-top-info">
                 <div id="carouselAbout" class="col-12 col carousel slide" data-interval="false"></div>
@@ -50,6 +51,7 @@
 
 
     <script>
+        // initialize iframes and resize them
         {% for id in ids %}
             var edu = "<div class=\"carousel-inner\">\n"
                 {% for key, value in templates.items %}
@@ -75,11 +77,112 @@
             $('#carousel{{ id }} .carousel-item').first().addClass('active')
         {% endfor %}
 
-        // resize iframes on start when DOM loaded
         $(function(){
+            //initialize content of iframes
+            $("iframe").contents().find(".image").attr("src", "{{ data.picture.url }}")
+            $("iframe").contents().find(".text-name").html("{{ data.firstname }} <br> {{ data.lastname }}")
+            $("iframe").contents().find(".text-phone").text("{{ data.tel }}")
+            $("iframe").contents().find(".text-mail").text("{{ data.email }}")
+            $("iframe").contents().find(".text-adress").text("{{ data.adresse }}")
+
+            //initialize Skills
+            var skills = []
+            var levels = []
+            {% for skill in skills %}
+                skills.push("{{ skill.skill }}")
+                levels.push({{ skill.level }})
+            {% endfor %}
+            skills.forEach((s, i) => {
+                if(i === 0) {
+                    $("iframe").contents().find(".text-skills").text(s)
+                    $("iframe").contents().find(".progress-bar").css("width", ""+levels[i]*10+"%")
+                }
+                else {
+                    $("iframe").contents().find(".pg").each((index, element) => {
+                        var newSkill = $(element).find(".progress:first-child").clone()
+                        var newSkillText;
+                        if($(element).find(".text-skills").length !== 0) {
+                            newSkillText = $(element).find(".text-skills:first-child").clone()
+                            newSkillText.text(s)
+                        }
+                        else newSkill.find(".progress-bar").text(s)
+                        newSkill.find(".progress-bar").css("width", ""+levels[i]*10+"%")
+                        if(newSkillText){
+                            var newDiv = $('<div/>', {"class": 'row'})
+                            var newDiv2 = $('<div/>', {"class": 'col-8'})
+                            newSkillText.appendTo(newDiv)
+                            newSkill.appendTo(newDiv2)
+                            newDiv2.appendTo(newDiv)
+                            newDiv.appendTo($(element).parent())
+                        }
+                        else newSkill.appendTo($(element).parent())
+                        $(element).parent().html($(element).parent().html()+"<br>")
+                    })
+                }
+            })
+
+            //initialize experience
+            var yearsFromExp = []
+            var yearsToExp = []
+            var institutionsExp = []
+            var descriptionsExp = []
+            {% for exp in experience %}
+                yearsFromExp.push("{{ exp.start }}")
+                yearsToExp.push("{{ exp.end }}")
+                institutionsExp.push("{{ exp.institution }}")
+                descriptionsExp.push("{{ exp.description|linebreaks }}")
+            {% endfor %}
+            descriptionsExp.forEach((s, i) => {
+                if(i === 0) {
+                    $("iframe").contents().find(".text-year").text(yearsFromExp[i]+" - "+yearsToExp[i]+" | "+institutionsExp[i])
+                    $("iframe").contents().find(".text-exp").html(s)
+                }
+                else {
+                    $("iframe").contents().find(".exp").each((index, element) => {
+                        var newExp = $(element).find(".orig").clone()
+                        newExp.find(".text-year").text(yearsFromExp[i]+" - "+yearsToExp[i]+" | "+institutionsExp[i])
+                        newExp.find(".text-exp").html(s)
+                        newExp.appendTo($(element))
+                        $(element).html($(element).html()+"<br>")
+                    })
+                }
+            })
+
+            //initialize education
+            var yearsFromEdu = []
+            var yearsToEdu = []
+            var institutionsEdu = []
+            var certificates = []
+            {% for edu in education %}
+                yearsFromEdu.push("{{ edu.start }}")
+                yearsToEdu.push("{{ edu.end }}")
+                institutionsEdu.push("{{ edu.institution }}")
+                certificates.push("{{ edu.certificate }}")
+            {% endfor %}
+            certificates.forEach((s, i) => {
+                if(i === 0) {
+                    $("iframe").contents().find(".text-year-edu").text(yearsFromEdu[i]+" - "+yearsToEdu[i])
+                    $("iframe").contents().find(".text-certificate").text(s)
+                    $("iframe").contents().find(".text-institution").text(institutionsEdu[i])
+                }
+                else {
+                    $("iframe").contents().find(".edu").each((index, element) => {
+                        var newEdu = $(element).find(".orig").clone()
+                        newEdu.find(".text-year-edu").text(yearsFromEdu[i]+" - "+yearsToEdu[i])
+                        newEdu.find(".text-certificate").text(s)
+                        newEdu.find(".text-institution").text(institutionsEdu[i])
+                        newEdu.appendTo($(element))
+                        $(element).html($(element).html()+"<br>")
+                    })
+                }
+            })
+
+
+            // resize iframes on start when DOM loaded
             $('.carousel-item.active iframe').each(function() {
                 $(this).get(0).style.height = $(this).get(0).contentWindow.document.documentElement.scrollHeight + 'px';
             })
+
         });
 
         // resize iframes after slide

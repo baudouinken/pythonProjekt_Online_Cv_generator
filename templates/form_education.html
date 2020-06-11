@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    <form action="" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="reset" value="Reset" />
+    <input type="submit" name="add" value="Add_another" />
+    <input type="submit" name="next" value="Next" />
+    </form>
+
+    <table class="table table-striped table-dark">
+    <thead class="thead-light">
+        <tr>
+        <th>certificate</th>
+        <th>start</th>
+        <th>end</th>
+        <th>institution</th>
+        <th>description</th>
+        <th>Edit</th>
+        <th>Delete</th>
+        </tr>
+
+    </thead>{% for element in myedu %}
+            <tr>
+            <td>{{ element.certificate }}</td>
+            <td>{{ element.start }}</td>
+            <td>{{ element.end }}</td>
+            <td>{{ element.institution }}</td>
+            <td>{{ element.description }}</td>
+            <td><a  href="" class="btn btn-primary btn-xs">Edit</a></td>
+            <td><a  href="" class="btn btn-primary btn-xs">Delete</a></td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
