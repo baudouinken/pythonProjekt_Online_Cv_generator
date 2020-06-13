@@ -16,8 +16,6 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from cvsite.views import get_home, get_cv_generator
-
 from cvsite.views import *
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.conf.urls.static import static
@@ -25,7 +23,7 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', get_home, name = 'home_page'),
+    path('', get_home, name='home_page'),
     path('generate_cv/', get_cv_generator, name='genarate_template'),
 
     path('signup/', signup_view, name='signup'),
@@ -36,13 +34,13 @@ urlpatterns = [
     path('data/', data_view, name='user_data'),
     path('show_data/', show_data, name='show_data'),
 
-    path('sprachen_view/<data>/', sprachen_view, name='sprachen'),
+    path('language_view/<data>/', language_view, name='language'),
 
-    path('kenntnisse_view/<data>/', kenntnisse_view, name='kenntnisse'),
+    path('skill_view/<data>/', skill_view, name='skill'),
 
-    path('beruf_view/<data>/', beruf_view, name='beruf'),
+    path('experience_view/<data>/', experience_view, name='experience'),
 
-    path('ausbildung_view/<data>/', ausbildung_view, name='ausbildung'),
+    path('education_view/<data>/', education_view, name='education'),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
