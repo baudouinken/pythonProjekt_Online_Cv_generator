@@ -33,7 +33,17 @@ def get_cv_generator(request):
         "Language": ['template1/template1_language.html', 'template2/template2_language.html',
                      'template3/template3_language.html', 'template4/template4_language.html']
     }
-    return render(request, 'generate_cv.html', {'page_title': 'Generate your CV', 'ids': ids, 'templates': templates})
+    if request.user.is_authenticated:
+        data = Data.objects.get(user=request.user)
+        return render(request, 'generate_cv.html',
+                      {'page_title': 'Generate your CV', 'ids': ids, 'templates': templates,
+                       'data': data,
+                       'skills': Skill.objects.filter(data=data),
+                       'languages': Language.objects.filter(data=data),
+                       'experience': Experience.objects.filter(data=data),
+                       'education': Education.objects.filter(data=data)})
+    else:
+        return HttpResponseRedirect()
 
 
 def signup_view(request):

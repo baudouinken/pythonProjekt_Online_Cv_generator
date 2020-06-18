@@ -51,6 +51,7 @@
 
 
     <script>
+        // initialize iframes and resize them
         {% for id in ids %}
             var edu = "<div class=\"carousel-inner\">\n"
                 {% for key, value in templates.items %}
@@ -76,11 +77,18 @@
             $('#carousel{{ id }} .carousel-item').first().addClass('active')
         {% endfor %}
 
-        // resize iframes on start when DOM loaded
         $(function(){
+            //initialize content of iframes
+            $("iframe").contents().find(".text-name").html("{{ data.firstname }} <br> {{ data.lastname }}")
+            $("iframe").contents().find(".text-phone").text("{{ data.tel }}")
+            $("iframe").contents().find(".text-mail").text("{{ data.email }}")
+            $("iframe").contents().find(".text-adress").text("{{ data.adresse }}")
+
+            // resize iframes on start when DOM loaded
             $('.carousel-item.active iframe').each(function() {
                 $(this).get(0).style.height = $(this).get(0).contentWindow.document.documentElement.scrollHeight + 'px';
             })
+
         });
 
         // resize iframes after slide
