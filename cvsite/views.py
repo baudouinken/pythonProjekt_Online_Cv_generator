@@ -6,24 +6,35 @@ from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib.auth import login, logout
 from django.contrib.auth.decorators import login_required
 
+
 # Create your views here.
-#home page
+# home page
 def get_home(request):
     return render(request, 'home.html', {'page_title': 'Home CV Generator'})
 
 
 def get_cv_generator(request):
     ids = ['Photo', 'Name', 'Adress', 'Skills', 'About', 'Experience', 'Education', 'Language']
-    templates = {"Photo": ['template1/template1_photo.html', 'template2/template2_photo.html', 'template3/template3_photo.html', 'template4/template4_photo.html'],
-                 "Name": ['template1/template1_name.html', 'template2/template2_name.html', 'template3/template3_name.html', 'template4/template4_name.html'],
-                 "Adress": ['template1/template1_adress.html', 'template2/template2_adress.html', 'template3/template3_adress.html', 'template4/template4_adress.html'],
-                 "Skills": ['template1/template1_skills.html', 'template2/template2_skills.html', 'template3/template3_skills.html', 'template4/template4_skills.html'],
-                 "About": ['template1/template1_about.html', 'template2/template2_about.html', 'template3/template3_about.html', 'template4/template4_about.html'],
-                 "Experience": ['template1/template1_experience.html', 'template2/template2_experience.html', 'template3/template3_experience.html', 'template4/template4_experience.html'],
-                 "Education": ['template1/template1_education.html', 'template2/template2_education.html', 'template3/template3_education.html', 'template4/template4_education.html'],
-                 "Language": ['template1/template1_language.html', 'template2/template2_language.html', 'template3/template3_language.html', 'template4/template4_language.html']
-                 }
+    templates = {
+        "Photo": ['template1/template1_photo.html', 'template2/template2_photo.html', 'template3/template3_photo.html',
+                  'template4/template4_photo.html'],
+        "Name": ['template1/template1_name.html', 'template2/template2_name.html', 'template3/template3_name.html',
+                 'template4/template4_name.html'],
+        "Adress": ['template1/template1_adress.html', 'template2/template2_adress.html',
+                   'template3/template3_adress.html', 'template4/template4_adress.html'],
+        "Skills": ['template1/template1_skills.html', 'template2/template2_skills.html',
+                   'template3/template3_skills.html', 'template4/template4_skills.html'],
+        "About": ['template1/template1_about.html', 'template2/template2_about.html', 'template3/template3_about.html',
+                  'template4/template4_about.html'],
+        "Experience": ['template1/template1_experience.html', 'template2/template2_experience.html',
+                       'template3/template3_experience.html', 'template4/template4_experience.html'],
+        "Education": ['template1/template1_education.html', 'template2/template2_education.html',
+                      'template3/template3_education.html', 'template4/template4_education.html'],
+        "Language": ['template1/template1_language.html', 'template2/template2_language.html',
+                     'template3/template3_language.html', 'template4/template4_language.html']
+    }
     return render(request, 'generate_cv.html', {'page_title': 'Generate your CV', 'ids': ids, 'templates': templates})
+
 
 def signup_view(request):
     if request.method == 'POST':
@@ -67,7 +78,7 @@ def data_view(request):
             dt.user = request.user
             dt.save()
             data_id = dt.id
-            return redirect('sprachen', data=data_id)
+            return redirect('language', data=data_id)
     else:
         form = DataForm()
     return render(request, 'user_data.html', {'form': form})
@@ -86,92 +97,96 @@ def get_user(request):
 
 
 # Sprachen
-def sprachen_view(request, data=None):
+def language_view(request, data=None):
+    mylanguage = Language.objects.all().filter(data=data)
     if 'next' in request.POST:
         if request.method == 'POST':
-            form = SprachenForm(request.POST)
+            form = LanguageForm(request.POST)
             if form.is_valid():
-                sp = form.save(commit=False)
-                sp.data_id = data
-                sp.save()
-                return redirect('kenntnisse', data=data)
+                lg = form.save(commit=False)
+                lg.data_id = data
+                lg.save()
+                return redirect('skill', data=data)
     elif 'add' in request.POST:
         if request.method == 'POST':
-            form = SprachenForm(request.POST)
+            form = LanguageForm(request.POST)
             if form.is_valid():
-                sp = form.save(commit=False)
-                sp.data_id = data
-                sp.save()
-                return redirect('sprachen', data=data)
+                lg = form.save(commit=False)
+                lg.data_id = data
+                lg.save()
+                return redirect('language', data=data)
     else:
-        form = SprachenForm()
-    return render(request, 'form_sprachen.html', {'form': form})
+        form = LanguageForm()
+    return render(request, 'form_language.html', {'form': form, 'mylg': mylanguage, })
 
 
 # Kenntnisse
-def kenntnisse_view(request, data=None):
+def skill_view(request, data=None):
+    myskill = Skill.objects.all().filter(data=data)
     if 'next' in request.POST:
         if request.method == 'POST':
-            form = KenntnisseForm(request.POST)
+            form = SkillForm(request.POST)
             if form.is_valid():
-                kt = form.save(commit=False)
-                kt.data_id = data
-                kt.save()
-                return redirect('beruf', data=data)
+                sk = form.save(commit=False)
+                sk.data_id = data
+                sk.save()
+                return redirect('experience', data=data)
     elif 'add' in request.POST:
         if request.method == 'POST':
-            form = KenntnisseForm(request.POST)
+            form = SkillForm(request.POST)
             if form.is_valid():
-                kt = form.save(commit=False)
-                kt.data_id = data
-                kt.save()
-                return redirect('kenntnisse', data=data)
+                sk = form.save(commit=False)
+                sk.data_id = data
+                sk.save()
+                return redirect('skill', data=data)
     else:
-        form = KenntnisseForm()
-    return render(request, 'form_kentnisse.html', {'form': form})
+        form = SkillForm()
+    return render(request, 'form_skill.html', {'form': form, 'mysk': myskill, })
 
 
 # BerufForm
-def beruf_view(request, data=None):
+def experience_view(request, data=None):
+    myexperience = Experience.objects.all().filter(data=data)
     if 'next' in request.POST:
         if request.method == 'POST':
-            form = BerufForm(request.POST)
+            form = ExperienceForm(request.POST)
             if form.is_valid():
-                be = form.save(commit=False)
-                be.data_id = data
-                be.save()
-                return redirect('ausbildung', data=data)
+                exp = form.save(commit=False)
+                exp.data_id = data
+                exp.save()
+                return redirect('education', data=data)
     elif 'add' in request.POST:
         if request.method == 'POST':
-            form = BerufForm(request.POST)
+            form = ExperienceForm(request.POST)
             if form.is_valid():
-                be = form.save(commit=False)
-                be.data_id = data
-                be.save()
-                return redirect('kenntnisse', data=data)
+                exp = form.save(commit=False)
+                exp.data_id = data
+                exp.save()
+                return redirect('experience', data=data)
     else:
-        form = BerufForm()
-    return render(request, 'form_beruf.html', {'form': form})
+        form = ExperienceForm()
+    return render(request, 'form_experience.html', {'form': form, 'myexp': myexperience, })
 
 
 # Ausbildung
-def ausbildung_view(request, data=None):
+def education_view(request, data=None):
+    myeducation = Education.objects.all().filter(data=data)
     if 'next' in request.POST:
         if request.method == 'POST':
-            form = AusbildungForm(request.POST)
+            form = EducationForm(request.POST)
             if form.is_valid():
-                au = form.save(commit=False)
-                au.data_id = data
-                au.save()
+                edu = form.save(commit=False)
+                edu.data_id = data
+                edu.save()
                 return redirect('list_user')
     elif 'add' in request.POST:
         if request.method == 'POST':
-            form = AusbildungForm(request.POST)
+            form = EducationForm(request.POST)
             if form.is_valid():
-                au = form.save(commit=False)
-                au.data_id = data
-                au.save()
-                return redirect('ausbildung', data=data)
+                edu = form.save(commit=False)
+                edu.data_id = data
+                edu.save()
+                return redirect('education', data=data)
     else:
-        form = AusbildungForm()
-    return render(request, 'form_ausbildung.html', {'form': form})
+        form = EducationForm()
+    return render(request, 'form_education.html', {'form': form, 'myedu': myeducation, })
