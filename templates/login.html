@@ -1,15 +1,39 @@
 {% extends 'base.html' %}
+{% load bootstrap4 %}
+{% load static %}
+
+ {% block style %}
+     <style>
+        .site-form{
+            text-align: center;
+        }
+        h1{
+          text-align: center;
+        }
+     </style>
+ {% endblock %}
+
 {% block content %}
-    <h1>Login</h1>
-    <form class="site-form" action="" method="post">
-    {% csrf_token %}
-    {{ form }}
 
-     {% if request.GET.next %}
-        <input type="hidden" name="next" value="{{ request.GET.next }}">
-    {% endif %}
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                  <img src="{% static "img/user.png" %}" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h1>Login</h1>
+                    <form class="site-form " action="" method="post">
+                        {% csrf_token %}
+                            {{ form }}
+                              {% if request.GET.next %}
+                            <input type="hidden" name="next" value="{{ request.GET.next }}">
+                        {% endif %}
 
-    <input type="submit" value="Login">
-    </form>
-
+                        <input class="btn btn-success mt-3" type="submit" value="Login">
+                    </form>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock %}
