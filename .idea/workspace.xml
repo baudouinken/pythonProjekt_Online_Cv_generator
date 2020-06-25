@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aa702f20-b0de-42cf-9633-c14ab4f6d473" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/img/img_templates/template1/template1_Adress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/img_templates/template1/template1_Experience.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/img_templates/template1/template1_Language.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/img_templates/template1/template1_Skills.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/img_templates/template1/template1_edu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/img_templates/template1/template1_name.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/img_templates/template2/template2_adress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/img_templates/template2/template2_experience.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/img_templates/template2/template2_experienceg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/img_templates/template2/template2_language.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/img_templates/template2/template2_name.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/img_templates/template2/template2_skills.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/user1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvsite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cvsite/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/generate_cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/generate_cv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="connectDBtoCVGenerator" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="1dUc5Vi2Fc7LUEksRzkckH0J8yv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="file.status.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Benutzer\Norman\Uni\Semester4\Objektorientierte Skriptsprachen\Semesterprojekt\pythonProjekt_Online_Cv_generator" />
+      <recent name="D:\Benutzer\Norman\Uni\Semester4\Objektorientierte Skriptsprachen\Semesterprojekt\pythonProjekt_Online_Cv_generator\OOSL_project" />
+      <recent name="D:\Benutzer\Norman\Uni\Semester4\Objektorientierte Skriptsprachen\Semesterprojekt\pythonProjekt_Online_Cv_generator\templates" />
+      <recent name="D:\Benutzer\Norman\Uni\Semester4\Objektorientierte Skriptsprachen\Semesterprojekt\pythonProjekt_Online_Cv_generator\cvsite" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" nameIsGenerated="true">
+      <module name="OOSL_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="OOSL_project.settings" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Program Files\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Norman\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa702f20-b0de-42cf-9633-c14ab4f6d473" name="Default Changelist" comment="" />
+      <changelist id="" name="test" comment="" />
+      <created>1592482929026</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592482929026</updated>
+      <workItem from="1592482931426" duration="9703000" />
+      <workItem from="1592930563471" duration="20414000" />
+      <workItem from="1593083890039" duration="17634000" />
+    </task>
+    <task id="LOCAL-00001" summary="everything in english">
+      <created>1592484157793</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592484157793</updated>
+    </task>
+    <task id="LOCAL-00002" summary="started connecting the generator with the user data">
+      <created>1592493772245</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592493772245</updated>
+    </task>
+    <task id="LOCAL-00003" summary="SKILLS ARE SHOWN!!!">
+      <created>1592946048430</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592946048430</updated>
+    </task>
+    <task id="LOCAL-00004" summary="WORK EXPERIENCE">
+      <created>1592957421174</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592957421174</updated>
+    </task>
+    <task id="LOCAL-00005" summary="EDUCATON">
+      <created>1593088815111</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593088815111</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test">
+      <created>1593090719983</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593090719983</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Merge remote-tracking branch 'refs/remotes/origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/OOSL_project.iml&#10;#&#9;.idea/dataSources.xml&#10;#&#9;.idea/misc.xml&#10;#&#9;OOSL_project/__pycache__/__init__.cpython-36.pyc&#10;#&#9;OOSL_project/__pycache__/__init__.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/__init__.cpython-38.pyc&#10;#&#9;OOSL_project/__pycache__/settings.cpython-36.pyc&#10;#&#9;OOSL_project/__pycache__/settings.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/settings.cpython-38.pyc&#10;#&#9;OOSL_project/__pycache__/urls.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/wsgi.cpython-37.pyc&#10;#&#9;OOSL_project/settings.py&#10;#&#9;OOSL_project/urls.py&#10;#&#9;__pycache__/manage.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/__init__.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/__init__.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/admin.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/admin.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/forms.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/forms.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/models.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/models.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/views.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/views.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0001_initial.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0001_initial.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0002_data_thumb.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0002_data_thumb.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0003_auto_20200605_1040.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0003_auto_20200605_1040.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0004_auto_20200605_1055.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0004_auto_20200605_1055.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0005_auto_20200605_1056.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0005_auto_20200605_1056.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0006_delete_cv.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0006_delete_cv.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0007_auto_20200605_1118.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0007_auto_20200605_1118.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0008_auto_20200605_1136.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0008_auto_20200605_1136.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/__init__.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/__init__.cpython-38.pyc&#10;#&#9;cvsite/views.py&#10;#&#9;db.sqlite&#10;#&#9;static/template1/template1_about.html&#10;#&#9;static/template1/template1_adress.html&#10;#&#9;static/template1/template1_education.html&#10;#&#9;static/template1/template1_experience.html&#10;#&#9;static/template1/template1_language.html&#10;#&#9;static/template1/template1_name.html&#10;#&#9;static/template1/template1_photo.html&#10;#&#9;static/template1/template1_skills.html&#10;#&#9;static/template2.html&#10;#&#9;static/template2/template2_about.html&#10;#&#9;static/template2/template2_adress.html&#10;#&#9;static/template2/template2_education.html&#10;#&#9;static/template2/template2_experience.html&#10;#&#9;static/template2/template2_language.html&#10;#&#9;static/template2/template2_name.html&#10;#&#9;static/template2/template2_photo.html&#10;#&#9;static/template2/template2_skills.html&#10;#&#9;static/template3.html&#10;#&#9;static/template3/template3_about.html&#10;#&#9;static/template3/template3_adress.html&#10;#&#9;static/template3/template3_education.html&#10;#&#9;static/template3/template3_experience.html&#10;#&#9;static/template3/template3_language.html&#10;#&#9;static/template3/template3_name.html&#10;#&#9;static/template3/template3_photo.html&#10;#&#9;static/template3/template3_skills.html&#10;#&#9;static/template4/template4_about.html&#10;#&#9;static/template4/template4_adress.html&#10;#&#9;static/template4/template4_education.html&#10;#&#9;static/template4/template4_experience.html&#10;#&#9;static/template4/template4_language.html&#10;#&#9;static/template4/template4_name.html&#10;#&#9;static/template4/template4_photo.html&#10;#&#9;static/template4/template4_skills.html&#10;#&#9;templates/base.html&#10;#&#9;templates/form_education.html&#10;#&#9;templates/form_experience.html&#10;#&#9;templates/form_language.html&#10;#&#9;templates/form_skill.html&#10;#&#9;templates/generate_cv.html&#10;#&#9;templates/home.html&#10;#&#9;templates/user_data.html">
+      <created>1593093580448</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593093580448</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test gitignore">
+      <created>1593098183828</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593098183828</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="everything in english" />
+    <MESSAGE value="started connecting the generator with the user data" />
+    <MESSAGE value="SKILLS ARE SHOWN!!!" />
+    <MESSAGE value="WORK EXPERIENCE" />
+    <MESSAGE value="EDUCATON" />
+    <MESSAGE value="test" />
+    <MESSAGE value="Merge remote-tracking branch 'refs/remotes/origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/OOSL_project.iml&#10;#&#9;.idea/dataSources.xml&#10;#&#9;.idea/misc.xml&#10;#&#9;OOSL_project/__pycache__/__init__.cpython-36.pyc&#10;#&#9;OOSL_project/__pycache__/__init__.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/__init__.cpython-38.pyc&#10;#&#9;OOSL_project/__pycache__/settings.cpython-36.pyc&#10;#&#9;OOSL_project/__pycache__/settings.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/settings.cpython-38.pyc&#10;#&#9;OOSL_project/__pycache__/urls.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/wsgi.cpython-37.pyc&#10;#&#9;OOSL_project/settings.py&#10;#&#9;OOSL_project/urls.py&#10;#&#9;__pycache__/manage.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/__init__.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/__init__.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/admin.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/admin.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/forms.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/forms.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/models.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/models.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/views.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/views.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0001_initial.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0001_initial.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0002_data_thumb.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0002_data_thumb.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0003_auto_20200605_1040.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0003_auto_20200605_1040.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0004_auto_20200605_1055.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0004_auto_20200605_1055.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0005_auto_20200605_1056.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0005_auto_20200605_1056.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0006_delete_cv.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0006_delete_cv.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0007_auto_20200605_1118.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0007_auto_20200605_1118.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0008_auto_20200605_1136.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0008_auto_20200605_1136.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/__init__.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/__init__.cpython-38.pyc&#10;#&#9;cvsite/views.py&#10;#&#9;db.sqlite&#10;#&#9;static/template1/template1_about.html&#10;#&#9;static/template1/template1_adress.html&#10;#&#9;static/template1/template1_education.html&#10;#&#9;static/template1/template1_experience.html&#10;#&#9;static/template1/template1_language.html&#10;#&#9;static/template1/template1_name.html&#10;#&#9;static/template1/template1_photo.html&#10;#&#9;static/template1/template1_skills.html&#10;#&#9;static/template2.html&#10;#&#9;static/template2/template2_about.html&#10;#&#9;static/template2/template2_adress.html&#10;#&#9;static/template2/template2_education.html&#10;#&#9;static/template2/template2_experience.html&#10;#&#9;static/template2/template2_language.html&#10;#&#9;static/template2/template2_name.html&#10;#&#9;static/template2/template2_photo.html&#10;#&#9;static/template2/template2_skills.html&#10;#&#9;static/template3.html&#10;#&#9;static/template3/template3_about.html&#10;#&#9;static/template3/template3_adress.html&#10;#&#9;static/template3/template3_education.html&#10;#&#9;static/template3/template3_experience.html&#10;#&#9;static/template3/template3_language.html&#10;#&#9;static/template3/template3_name.html&#10;#&#9;static/template3/template3_photo.html&#10;#&#9;static/template3/template3_skills.html&#10;#&#9;static/template4/template4_about.html&#10;#&#9;static/template4/template4_adress.html&#10;#&#9;static/template4/template4_education.html&#10;#&#9;static/template4/template4_experience.html&#10;#&#9;static/template4/template4_language.html&#10;#&#9;static/template4/template4_name.html&#10;#&#9;static/template4/template4_photo.html&#10;#&#9;static/template4/template4_skills.html&#10;#&#9;templates/base.html&#10;#&#9;templates/form_education.html&#10;#&#9;templates/form_experience.html&#10;#&#9;templates/form_language.html&#10;#&#9;templates/form_skill.html&#10;#&#9;templates/generate_cv.html&#10;#&#9;templates/home.html&#10;#&#9;templates/user_data.html" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;OOSL_project/__pycache__/__init__.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/settings.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/urls.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/wsgi.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/__init__.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/admin.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/forms.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/models.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/views.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0001_initial.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0002_auto_20200613_1543.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0002_data_thumb.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0003_auto_20200605_1040.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0003_auto_20200613_1554.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0004_auto_20200605_1055.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0005_auto_20200605_1056.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0006_delete_cv.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0007_auto_20200605_1118.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0008_auto_20200605_1136.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0009_merge_20200623_1903.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/__init__.cpython-37.pyc" />
+    <MESSAGE value="test gitignore" />
+    <MESSAGE value="add fotos caroussel&#10;&#10;# Conflicts:&#10;#&#9;.idea/OOSL_project.iml&#10;#&#9;.idea/dataSources.xml&#10;#&#9;.idea/misc.xml&#10;#&#9;OOSL_project/__pycache__/__init__.cpython-36.pyc&#10;#&#9;OOSL_project/__pycache__/__init__.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/__init__.cpython-38.pyc&#10;#&#9;OOSL_project/__pycache__/settings.cpython-36.pyc&#10;#&#9;OOSL_project/__pycache__/settings.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/settings.cpython-38.pyc&#10;#&#9;OOSL_project/__pycache__/urls.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/wsgi.cpython-37.pyc&#10;#&#9;OOSL_project/settings.py&#10;#&#9;OOSL_project/urls.py&#10;#&#9;__pycache__/manage.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/__init__.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/__init__.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/admin.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/admin.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/forms.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/forms.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/models.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/models.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/views.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/views.cpython-38.pyc&#10;#&#9;cvsite/views.py&#10;#&#9;db.sqlite&#10;#&#9;static/template1/template1_education.html&#10;#&#9;static/template1/template1_experience.html&#10;#&#9;static/template1/template1_photo.html&#10;#&#9;static/template1/template1_skills.html&#10;#&#9;static/template2/template2_adress.html&#10;#&#9;static/template2/template2_education.html&#10;#&#9;static/template2/template2_experience.html&#10;#&#9;static/template2/template2_photo.html&#10;#&#9;static/template2/template2_skills.html&#10;#&#9;static/template3/template3_education.html&#10;#&#9;static/template3/template3_experience.html&#10;#&#9;static/template3/template3_photo.html&#10;#&#9;static/template3/template3_skills.html&#10;#&#9;static/template4/template4_education.html&#10;#&#9;static/template4/template4_experience.html&#10;#&#9;static/template4/template4_photo.html&#10;#&#9;static/template4/template4_skills.html&#10;#&#9;templates/base.html&#10;#&#9;templates/form_education.html&#10;#&#9;templates/form_experience.html&#10;#&#9;templates/form_language.html&#10;#&#9;templates/form_skill.html&#10;#&#9;templates/generate_cv.html&#10;#&#9;templates/home.html&#10;#&#9;templates/user_data.html" />
+    <MESSAGE value="add fotos caroussel&#10;&#10;# Conflicts:&#10;#&#9;.idea/OOSL_project.iml&#10;#&#9;.idea/dataSources.xml&#10;#&#9;.idea/misc.xml&#10;#&#9;OOSL_project/__pycache__/__init__.cpython-36.pyc&#10;#&#9;OOSL_project/__pycache__/__init__.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/__init__.cpython-38.pyc&#10;#&#9;OOSL_project/__pycache__/settings.cpython-36.pyc&#10;#&#9;OOSL_project/__pycache__/settings.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/settings.cpython-38.pyc&#10;#&#9;OOSL_project/__pycache__/urls.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/wsgi.cpython-37.pyc&#10;#&#9;OOSL_project/settings.py&#10;#&#9;OOSL_project/urls.py&#10;#&#9;__pycache__/manage.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/__init__.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/__init__.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/admin.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/admin.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/forms.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/forms.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/models.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/models.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/views.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/views.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0001_initial.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0001_initial.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0002_auto_20200613_1543.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0002_data_thumb.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0002_data_thumb.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0003_auto_20200605_1040.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0003_auto_20200605_1040.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0003_auto_20200613_1554.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0004_auto_20200605_1055.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0004_auto_20200605_1055.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0005_auto_20200605_1056.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0005_auto_20200605_1056.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0006_delete_cv.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0006_delete_cv.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0007_auto_20200605_1118.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0007_auto_20200605_1118.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0008_auto_20200605_1136.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0008_auto_20200605_1136.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/__init__.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/__init__.cpython-38.pyc&#10;#&#9;cvsite/views.py&#10;#&#9;db.sqlite&#10;#&#9;static/template1/template1_education.html&#10;#&#9;static/template1/template1_experience.html&#10;#&#9;static/template1/template1_photo.html&#10;#&#9;static/template1/template1_skills.html&#10;#&#9;static/template2/template2_adress.html&#10;#&#9;static/template2/template2_education.html&#10;#&#9;static/template2/template2_experience.html&#10;#&#9;static/template2/template2_photo.html&#10;#&#9;static/template2/template2_skills.html&#10;#&#9;static/template3/template3_education.html&#10;#&#9;static/template3/template3_experience.html&#10;#&#9;static/template3/template3_photo.html&#10;#&#9;static/template3/template3_skills.html&#10;#&#9;static/template4/template4_education.html&#10;#&#9;static/template4/template4_experience.html&#10;#&#9;static/template4/template4_photo.html&#10;#&#9;static/template4/template4_skills.html&#10;#&#9;templates/base.html&#10;#&#9;templates/form_education.html&#10;#&#9;templates/form_experience.html&#10;#&#9;templates/form_language.html&#10;#&#9;templates/form_skill.html&#10;#&#9;templates/generate_cv.html&#10;#&#9;templates/home.html&#10;#&#9;templates/user_data.html" />
+    <MESSAGE value="modif Home and Login&#10;&#10;# Conflicts:&#10;#&#9;OOSL_project/__pycache__/__init__.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/settings.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/urls.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/wsgi.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/__init__.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/admin.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/forms.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/models.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/views.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0001_initial.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0002_auto_20200613_1543.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0002_data_thumb.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0003_auto_20200605_1040.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0003_auto_20200613_1554.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0004_auto_20200605_1055.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0005_auto_20200605_1056.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0006_delete_cv.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0007_auto_20200605_1118.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0008_auto_20200605_1136.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0009_merge_20200623_1903.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/__init__.cpython-37.pyc&#10;#&#9;cvsite/views.py&#10;#&#9;db.sqlite&#10;#&#9;static/img/img_templates/template1/template1_tof.png&#10;#&#9;static/img/img_templates/template2/template2_tof.png&#10;#&#9;templates/base.html&#10;#&#9;templates/home.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif Home and Login&#10;&#10;# Conflicts:&#10;#&#9;OOSL_project/__pycache__/__init__.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/settings.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/urls.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/wsgi.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/__init__.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/admin.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/forms.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/models.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/views.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0001_initial.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0002_auto_20200613_1543.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0002_data_thumb.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0003_auto_20200605_1040.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0003_auto_20200613_1554.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0004_auto_20200605_1055.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0005_auto_20200605_1056.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0006_delete_cv.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0007_auto_20200605_1118.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0008_auto_20200605_1136.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0009_merge_20200623_1903.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/__init__.cpython-37.pyc&#10;#&#9;cvsite/views.py&#10;#&#9;db.sqlite&#10;#&#9;static/img/img_templates/template1/template1_tof.png&#10;#&#9;static/img/img_templates/template2/template2_tof.png&#10;#&#9;templates/base.html&#10;#&#9;templates/home.html" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="845" y="387" key="#Notifications" timestamp="1593100456671">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="845" y="387" key="#Notifications/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593100456671" />
+    <state x="752" y="383" key="#Scopes" timestamp="1593098805900">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="752" y="383" key="#Scopes/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593098805900" />
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592482951966">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1592482951966" />
+    <state x="722" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592483389979">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="722" y="326" key="#com.intellij.fileTypes.FileTypeChooser/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1592483389979" />
+    <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593095808435">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593095808435" />
+    <state x="408" y="0" key="CommitChangelistDialog2" timestamp="1593102712071">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="408" y="0" key="CommitChangelistDialog2/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593102712071" />
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1593098249877">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593098249877" />
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1592483053816">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="279" key="FileChooserDialogImpl/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1592483053816" />
+    <state width="1132" height="297" key="GridCell.Tab.0.bottom" timestamp="1593101312428">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1132" height="297" key="GridCell.Tab.0.bottom/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593101312428" />
+    <state width="1132" height="297" key="GridCell.Tab.0.center" timestamp="1593101312428">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1132" height="297" key="GridCell.Tab.0.center/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593101312428" />
+    <state width="1132" height="297" key="GridCell.Tab.0.left" timestamp="1593101312427">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1132" height="297" key="GridCell.Tab.0.left/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593101312427" />
+    <state width="1132" height="297" key="GridCell.Tab.0.right" timestamp="1593101312428">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1132" height="297" key="GridCell.Tab.0.right/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593101312428" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1592483418339">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1592483418339" />
+    <state x="184" y="87" key="MergeDialog" timestamp="1593102689368">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="184" y="87" key="MergeDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593102689368" />
+    <state x="394" y="44" width="1048" height="893" key="MultipleFileMergeDialog" timestamp="1593102693840">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="394" y="44" width="1048" height="893" key="MultipleFileMergeDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593102693840" />
+    <state x="550" y="227" key="RollbackChangesDialog" timestamp="1593095723020">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="550" y="227" key="RollbackChangesDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593095723020" />
+    <state x="461" y="169" width="1141" height="711" key="SettingsEditor" timestamp="1593100949076">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="169" width="1141" height="711" key="SettingsEditor/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593100949076" />
+    <state x="747" y="240" width="505" height="580" key="VCS.ChangeListViewerDialog" timestamp="1593095040442">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="747" y="240" width="505" height="580" key="VCS.ChangeListViewerDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593095040442" />
+    <state x="807" y="439" key="VCS.ChangelistChooser" timestamp="1593091815674">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="807" y="439" key="VCS.ChangelistChooser/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593091815674" />
+    <state x="846" y="440" key="VCS.EditChangelistDialog" timestamp="1593090289989">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="846" y="440" key="VCS.EditChangelistDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593090289989" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1593098251889">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593098251889" />
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593101362773">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593101362773" />
+    <state x="0" y="237" key="git4idea.branch.GitSmartOperationDialog" timestamp="1593100642463">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="0" y="237" key="git4idea.branch.GitSmartOperationDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593100642463" />
+    <state x="562" y="386" key="git4idea.rebase.GitRebaseDialog" timestamp="1593094730696">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="562" y="386" key="git4idea.rebase.GitRebaseDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593094730696" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1593093422014">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593093422014" />
+    <state x="382" y="275" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1593094393590">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="382" y="275" key="vcs.ApplyPatchDifferentiatedDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593094393590" />
+  </component>
+</project>
