@@ -1,0 +1,104 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block style %}
+    <style>
+        .col{
+            border: 0px solid black;
+            height:  auto;
+            margin-bottom: 20px;
+        }
+
+        /* darker arrows */
+        .carousel-control-next-icon {
+            background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
+        }
+        .carousel-control-prev-icon {
+            background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
+        }
+    </style>
+ {% endblock %}
+
+
+{% block content %}
+
+    <h2 class="text-center display-3 mb-5"> {{ page_title }}</h2>
+
+    <div class="container">
+        <!-- Top -->
+        <div class="row">
+            <div class="col-4 col cv-top-img">
+                <div id="carouselPhoto" class="col-12 col col-photo carousel slide" data-interval="false"></div>
+                <div id="carouselName" class="col-12 col carousel slide" data-interval="false"></div>
+                <div id="carouselAdress" class="col-12 col carousel slide" data-interval="false"></div>
+                <div id="carouselSkills" class="col-12 col carousel slide" data-interval="false"></div>
+                <div id="carouselLanguage" class="col-12 col carousel slide" data-interval="false"></div>
+            </div>
+            <div class="col-8 col cv-top-info">
+                <div id="carouselAbout" class="col-12 col carousel slide" data-interval="false"></div>
+                <div id="carouselExperience" class="col-12 col carousel slide" data-interval="false"></div>
+                <div id="carouselEducation" class="col-12 col carousel slide" data-interval="false"></div>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="row">
+            <div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        // initialize iframes and resize them
+        {% for id in ids %}
+            var edu = "<div class=\"carousel-inner\">\n"
+                {% for key, value in templates.items %}
+                    {% if id == key %}
+                        {% for template in value %}
+                            edu += "<div class=\"carousel-item\">\n" +
+                                "<iframe src=\"../static/{{ template }}\" class=\"d-block w-100\" " +
+                                "frameborder=\"0\" ></iframe>\n" +
+                                "</div>\n"
+                        {% endfor %}
+                    {% endif %}
+                {% endfor %}
+            edu += "</div>\n" +
+                "<a class=\"carousel-control-prev\" href=\"#carousel{{ id }}\" role=\"button\" data-slide=\"prev\">\n" +
+                "<span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n" +
+                "<span class=\"sr-only\">Previous</span>\n" +
+                "</a>\n" +
+                "<a class=\"carousel-control-next\" href=\"#carousel{{ id }}\" role=\"button\" data-slide=\"next\">\n" +
+                "<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n" +
+                "<span class=\"sr-only\">Next</span>\n" +
+                "</a>";
+            $('#carousel{{ id }}').html(edu)
+            $('#carousel{{ id }} .carousel-item').first().addClass('active')
+        {% endfor %}
+
+        $(function(){
+            //initialize content of iframes
+            $("iframe").contents().find(".text-name").html("{{ data.firstname }} <br> {{ data.lastname }}")
+            $("iframe").contents().find(".text-phone").text("{{ data.tel }}")
+            $("iframe").contents().find(".text-mail").text("{{ data.email }}")
+            $("iframe").contents().find(".text-adress").text("{{ data.adresse }}")
+
+            // resize iframes on start when DOM loaded
+            $('.carousel-item.active iframe').each(function() {
+                $(this).get(0).style.height = $(this).get(0).contentWindow.document.documentElement.scrollHeight + 'px';
+            })
+
+        });
+
+        // resize iframes after slide
+        $('.carousel').each(function() {
+            $(this).on('slid.bs.carousel', function(ev) {
+                var iframe = $(ev.relatedTarget).find('iframe').get(0)
+                iframe.style.height = iframe.contentWindow.document.documentElement.scrollHeight + 'px';
+            })
+        })
+    </script>
+
+
+{% endblock %}

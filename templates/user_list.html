@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    <table class="table table-striped table-dark">
+    <thead class="thead-light">
+        <tr>
+        <th>mail</th>
+        <th>Pass</th>
+        </tr>
+    </thead>
+
+
+        {% for us in usr %}
+            <tr>
+            <td>{{ us.email }}</td>
+            <td>{{ us.password }}</td>
+            </tr>
+        {% endfor %}
+
+    </table>
+{% endblock %}
