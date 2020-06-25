@@ -35,12 +35,21 @@ urlpatterns = [
     path('show_data/', show_data, name='show_data'),
 
     path('language_view/<data>/', language_view, name='language'),
+    path('language_delete/<data>/<pk>/', language_delete, name='language_del'),
+    path('language_edit/<data>/<pk>/', language_edit, name='language_edit'),
+
 
     path('skill_view/<data>/', skill_view, name='skill'),
+    path('skill_del/<data>/<pk>/', skill_delete, name='skill_delete'),
+    path('skill_edit/<data>/<pk>/', skill_edit, name='skill_edit'),
 
     path('experience_view/<data>/', experience_view, name='experience'),
+    path('experience_del/<data>/<pk>/', experience_del, name='experience_del'),
+    path('experience_edit/<data>/<pk>/', experience_edit, name='experience_edit'),
 
     path('education_view/<data>/', education_view, name='education'),
+    path('education_del/<data>/<pk>/', education_del, name='education_del'),
+    path('education_edit/<data>/<pk>/', education_edit, name='education_edit'),
 ]
 
 urlpatterns += staticfiles_urlpatterns()

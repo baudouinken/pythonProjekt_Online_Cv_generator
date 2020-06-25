@@ -1,9 +1,10 @@
 {% extends 'base.html' %}
+{% load bootstrap4 %}
 {% block content %}
 
     <form action="" method="post">
     {% csrf_token %}
-    {{ form }}
+    {% bootstrap_form form %}
     <input type="reset" value="Reset" />
     <input type="submit" name="add" value="Add_another" />
     <input type="submit" name="next" value="Next" />
@@ -14,16 +15,19 @@
         <tr>
         <th>Skill</th>
         <th>Level</th>
-        <th>Edit</th>
         <th>Delete</th>
+        <th>Edit</th>
         </tr>
 
-    </thead>{% for element in mysk %}
+    </thead>
+        {% for element in mysk %}
             <tr>
             <td>{{ element.skill }}</td>
             <td>{{ element.level }}</td>
-            <td><a  href="" class="btn btn-primary btn-xs">Edit</a></td>
-            <td><a  href="" class="btn btn-primary btn-xs">Delete</a></td>
+            <td><a name="css" href="{% url 'skill_delete' data=element.data_id pk=element.id %}"
+                   class="btn btn-primary btn-xs">Delete</a></td>
+            <td><a name="css" href="{% url 'skill_edit' data=element.data_id pk=element.id %}"
+                   class="btn btn-primary btn-xs">Edit</a></td>
             </tr>
         {% endfor %}
     </table>
