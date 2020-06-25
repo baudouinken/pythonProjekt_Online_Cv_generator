@@ -25,28 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa702f20-b0de-42cf-9633-c14ab4f6d473" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/img/img_templates/template1/template1_Adress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/img_templates/template1/template1_Experience.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/img_templates/template1/template1_Language.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/img_templates/template1/template1_Skills.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/img_templates/template1/template1_edu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/img_templates/template1/template1_name.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/img_templates/template2/template2_adress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/img_templates/template2/template2_experience.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/img_templates/template2/template2_experienceg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/img_templates/template2/template2_language.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/img_templates/template2/template2_name.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/img_templates/template2/template2_skills.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/user1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cvsite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cvsite/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/generate_cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/generate_cv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-    </list>
+    <list default="true" id="aa702f20-b0de-42cf-9633-c14ab4f6d473" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,7 +103,7 @@
       <updated>1592482929026</updated>
       <workItem from="1592482931426" duration="9703000" />
       <workItem from="1592930563471" duration="20414000" />
-      <workItem from="1593083890039" duration="17634000" />
+      <workItem from="1593083890039" duration="18136000" />
     </task>
     <task id="LOCAL-00001" summary="everything in english">
       <created>1592484157793</created>
@@ -291,14 +270,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1592483418339" />
-    <state x="184" y="87" key="MergeDialog" timestamp="1593102689368">
+    <state x="184" y="87" key="MergeDialog" timestamp="1593102782805">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="184" y="87" key="MergeDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593102689368" />
-    <state x="394" y="44" width="1048" height="893" key="MultipleFileMergeDialog" timestamp="1593102693840">
+    <state x="184" y="87" key="MergeDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593102782805" />
+    <state x="394" y="44" width="1048" height="893" key="MultipleFileMergeDialog" timestamp="1593102788997">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="394" y="44" width="1048" height="893" key="MultipleFileMergeDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593102693840" />
+    <state x="394" y="44" width="1048" height="893" key="MultipleFileMergeDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593102788997" />
     <state x="550" y="227" key="RollbackChangesDialog" timestamp="1593095723020">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
