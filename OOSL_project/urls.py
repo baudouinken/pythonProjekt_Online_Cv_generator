@@ -32,6 +32,7 @@ urlpatterns = [
     path('user/', get_user, name='list_user'),
 
     path('data/', data_view, name='user_data'),
+    # path('data/<data>/', data_view, name='user_data'),
     path('show_data/', show_data, name='show_data'),
 
     path('language_view/<data>/', language_view, name='language'),

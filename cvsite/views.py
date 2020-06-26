@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, get_object_or_404
+from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
@@ -11,8 +11,7 @@ from django.contrib.auth.decorators import login_required
 # Create your views here.
 # home page
 def get_home(request):
-
-    return render(request, 'home.html', {'page_title': 'Home CV Generator' })
+    return render(request, 'home.html', {'page_title': 'Home CV Generator'})
 
 
 def get_cv_generator(request):
@@ -66,10 +65,10 @@ def login_view(request):
         if form.is_valid():
             user = form.get_user()
             login(request, user)
-            if 'next' in request.POST:
-                return redirect(request.POST.get('next'))
-            else:
-                return redirect('user_data')
+            dt = Data.objects.get(user=user)
+            dt_id = dt.id
+            return render(request, 'base3.html', {'page_title': 'Home CV Generator', 'data': dt_id})
+            # return redirect('user_data')
     else:
         form = AuthenticationForm()
     return render(request, 'login.html', {'form': form})
@@ -82,7 +81,9 @@ def logout_view(request):
 
 
 @login_required(login_url="/login")
-def data_view(request):
+def data_view(request, data=None):
+    user1 = request.user
+    du = Data.objects.get(user=user1)
     if request.method == 'POST':
         form = DataForm(request.POST, request.FILES)
         if form.is_valid():
@@ -92,7 +93,7 @@ def data_view(request):
             data_id = dt.id
             return redirect('language', data=data_id)
     else:
-        form = DataForm()
+        form = DataForm(instance=du)
     return render(request, 'user_data.html', {'form': form})
 
 
