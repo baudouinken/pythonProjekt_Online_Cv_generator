@@ -177,10 +177,14 @@ def next_lang(request):
 
 
 def check_lang(request):
-    usr = request.user
-    dt = Data.objects.get(user=usr)
-    dt_id = dt.id
-    return redirect('language', data=dt_id)
+    try:
+        usr = request.user
+        dt = Data.objects.get(user=usr)
+        dt_id = dt.id
+        return redirect('language', data=dt_id)
+    except Data.DoesNotExist:
+        messages.error(request, 'You do not have Data.')
+        return redirect('user_data')
 
 
 def language_edit(request, data=None, pk=None):
@@ -244,10 +248,14 @@ def next_skill(request):
 
 
 def check_skill(request):
-    usr = request.user
-    dt = Data.objects.get(user=usr)
-    dt_id = dt.id
-    return redirect('skill', data=dt_id)
+    try:
+        usr = request.user
+        dt = Data.objects.get(user=usr)
+        dt_id = dt.id
+        return redirect('skill', data=dt_id)
+    except Data.DoesNotExist:
+        messages.error(request, 'You do not have Data.')
+        return redirect('user_data')
 
 
 def skill_delete(request, data=None, pk=None):
@@ -313,10 +321,14 @@ def next_exp(request):
 
 
 def check_exp(request):
-    usr = request.user
-    dt = Data.objects.get(user=usr)
-    dt_id = dt.id
-    return redirect('experience', data=dt_id)
+    try:
+        usr = request.user
+        dt = Data.objects.get(user=usr)
+        dt_id = dt.id
+        return redirect('experience', data=dt_id)
+    except Data.DoesNotExist:
+        messages.error(request, 'You do not have Data.')
+        return redirect('user_data')
 
 
 def experience_del(request, data=None, pk=None):
@@ -409,7 +421,11 @@ def education_edit(request, data=None, pk=None):
 
 
 def check_edu(request):
-    usr = request.user
-    dt = Data.objects.get(user=usr)
-    dt_id = dt.id
-    return redirect('education', data=dt_id)
+    try:
+        usr = request.user
+        dt = Data.objects.get(user=usr)
+        dt_id = dt.id
+        return redirect('education', data=dt_id)
+    except Data.DoesNotExist:
+        messages.error(request, 'You do not have Data.')
+        return redirect('user_data')
