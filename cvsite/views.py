@@ -129,6 +129,7 @@ def data_view(request):
             dt = form.save(commit=False)
             dt.user = request.user
             dt.save()
+            messages.success(request, 'Data saved')
             data_id = dt.id
             return redirect('language', data=data_id)
     else:
@@ -157,6 +158,7 @@ def language_view(request, data=None):
                 lg = form.save(commit=False)
                 lg.data_id = data
                 lg.save()
+                messages.success(request, 'Language saved')
                 return redirect('language', data=data)
     else:
         form = LanguageForm()
@@ -171,10 +173,14 @@ def next_lang(request):
 
 
 def check_lang(request):
-    usr = request.user
-    dt = Data.objects.get(user=usr)
-    dt_id = dt.id
-    return redirect('language', data=dt_id)
+    try:
+        usr = request.user
+        dt = Data.objects.get(user=usr)
+        dt_id = dt.id
+        return redirect('language', data=dt_id)
+    except Data.DoesNotExist:
+        messages.error(request, 'You do not have Data.')
+        return redirect('user_data')
 
 
 def language_edit(request, data=None, pk=None):
@@ -191,6 +197,7 @@ def language_edit(request, data=None, pk=None):
                 lg = form.save(commit=False)
                 lg.data_id = data
                 lg.save()
+                messages.success(request, 'Language edited')
                 return redirect('language', data=data)
     else:
         form = LanguageForm(instance=lg)
@@ -205,6 +212,7 @@ def language_delete(request, data=None, pk=None):
 
     if lg:
         lg.delete()
+        messages.warning(request, 'Language deleted')
         return redirect('language', data=data)
     else:
         form = LanguageForm()
@@ -221,6 +229,7 @@ def skill_view(request, data=None):
                 sk = form.save(commit=False)
                 sk.data_id = data
                 sk.save()
+                messages.success(request, 'Skill saved')
                 return redirect('skill', data=data)
     else:
         form = SkillForm()
@@ -235,10 +244,14 @@ def next_skill(request):
 
 
 def check_skill(request):
-    usr = request.user
-    dt = Data.objects.get(user=usr)
-    dt_id = dt.id
-    return redirect('skill', data=dt_id)
+    try:
+        usr = request.user
+        dt = Data.objects.get(user=usr)
+        dt_id = dt.id
+        return redirect('skill', data=dt_id)
+    except Data.DoesNotExist:
+        messages.error(request, 'You do not have Data.')
+        return redirect('user_data')
 
 
 def skill_delete(request, data=None, pk=None):
@@ -249,6 +262,7 @@ def skill_delete(request, data=None, pk=None):
 
     if sk:
         sk.delete()
+        messages.warning(request, 'Skill deleted')
         return redirect('skill', data=data)
     else:
         form = SkillForm()
@@ -269,6 +283,7 @@ def skill_edit(request, data=None, pk=None):
                 sk = form.save(commit=False)
                 sk.data_id = data
                 sk.save()
+                messages.success(request, 'Skill edited')
                 return redirect('skill', data=data)
     else:
         form = SkillForm(instance=sk)
@@ -287,6 +302,7 @@ def experience_view(request, data=None):
                 exp = form.save(commit=False)
                 exp.data_id = data
                 exp.save()
+                messages.success(request, 'Experience saved')
                 return redirect('experience', data=data)
     else:
         form = ExperienceForm()
@@ -301,10 +317,14 @@ def next_exp(request):
 
 
 def check_exp(request):
-    usr = request.user
-    dt = Data.objects.get(user=usr)
-    dt_id = dt.id
-    return redirect('experience', data=dt_id)
+    try:
+        usr = request.user
+        dt = Data.objects.get(user=usr)
+        dt_id = dt.id
+        return redirect('experience', data=dt_id)
+    except Data.DoesNotExist:
+        messages.error(request, 'You do not have Data.')
+        return redirect('user_data')
 
 
 def experience_del(request, data=None, pk=None):
@@ -315,6 +335,7 @@ def experience_del(request, data=None, pk=None):
 
     if exp:
         exp.delete()
+        messages.warning(request, 'Experience deleted')
         return redirect('experience', data=data)
     else:
         form = SkillForm()
@@ -335,6 +356,7 @@ def experience_edit(request, data=None, pk=None):
                 exp = form.save(commit=False)
                 exp.data_id = data
                 exp.save()
+                messages.success(request, 'Experience edited')
                 return redirect('experience', data=data)
     else:
         form = ExperienceForm(instance=exp)
@@ -351,6 +373,7 @@ def education_view(request, data=None):
                 edu = form.save(commit=False)
                 edu.data_id = data
                 edu.save()
+                messages.success(request, 'Education saved')
                 return redirect('education', data=data)
     else:
         form = EducationForm()
@@ -365,6 +388,7 @@ def education_del(request, data=None, pk=None):
 
     if edu:
         edu.delete()
+        messages.warning(request, 'Education deleted')
         return redirect('education', data=data)
     else:
         form = EducationForm()
@@ -385,6 +409,7 @@ def education_edit(request, data=None, pk=None):
                 edu = form.save(commit=False)
                 edu.data_id = data
                 edu.save()
+                messages.success(request, 'Education edited')
                 return redirect('education', data=data)
     else:
         form = EducationForm(instance=edu)
@@ -392,7 +417,11 @@ def education_edit(request, data=None, pk=None):
 
 
 def check_edu(request):
-    usr = request.user
-    dt = Data.objects.get(user=usr)
-    dt_id = dt.id
-    return redirect('education', data=dt_id)
+    try:
+        usr = request.user
+        dt = Data.objects.get(user=usr)
+        dt_id = dt.id
+        return redirect('education', data=dt_id)
+    except Data.DoesNotExist:
+        messages.error(request, 'You do not have Data.')
+        return redirect('user_data')
