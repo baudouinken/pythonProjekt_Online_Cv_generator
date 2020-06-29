@@ -26,78 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa702f20-b0de-42cf-9633-c14ab4f6d473" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cvsite/wkhtmltopdf/bin/wkhtmltoimage.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cvsite/wkhtmltopdf/bin/wkhtmltopdf.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cvsite/wkhtmltopdf/bin/wkhtmltox.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cvsite/wkhtmltopdf/include/wkhtmltox/dllbegin.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cvsite/wkhtmltopdf/include/wkhtmltox/dllend.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cvsite/wkhtmltopdf/include/wkhtmltox/image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cvsite/wkhtmltopdf/include/wkhtmltox/pdf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cvsite/wkhtmltopdf/uninstall.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/CIMG0269.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/mycvs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/OOSL_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OOSL_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8afa51e8-b604-4a6b-8128-b9331023a6af.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8afa51e8-b604-4a6b-8128-b9331023a6af.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_06_2020_17_57__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_06_2020_17_57__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_25_06_2020_16_07__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_25_06_2020_16_07__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_25_06_2020_16_13__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_25_06_2020_16_13__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_25_06_2020_16_16__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_25_06_2020_16_16__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_14_55__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_14_55__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_14_56__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_14_56__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_15_11__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_15_11__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_15_30__test_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_15_30__test_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_10__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_10__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_14__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_14__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_16__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_16__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_17__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_17__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_19__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_19__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_23__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_23__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_37__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_37__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_18_09__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_18_09__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOSL_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOSL_project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cvsite/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/cvsite/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/cvsite/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0002_auto_20200613_1543.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0002_data_thumb.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0003_auto_20200605_1040.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0003_auto_20200613_1554.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0004_auto_20200605_1055.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0005_auto_20200605_1056.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0006_delete_cv.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0007_auto_20200605_1118.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0008_auto_20200605_1136.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0009_merge_20200623_1903.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0009_merge_20200623_1949.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cvsite/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cvsite/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cvsite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cvsite/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/template1/template1_adress.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template1/template1_adress.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/template3/template3_education.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template3/template3_education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/template4/template4_education.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template4/template4_education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base3.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/education_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/education_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/experience_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/experience_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/form_ausbildung.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/form_beruf.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/form_education.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/form_education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/form_experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/form_experience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/form_kentnisse.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/form_language.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/form_language.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/form_skill.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/form_skill.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/form_sprachen.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/generate_cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/generate_cv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/language_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/language_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/show_data.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/skill_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/skill_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user_data.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user_data.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user_list.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +65,7 @@
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/pythonProjekt_Online_Cv_generator/pythonProjekt_Online_Cv_generator/cvsite/views.py" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="two.files.diff.last.used.file" value="$USER_HOME$/Downloads/pythonProjekt_Online_Cv_generator/pythonProjekt_Online_Cv_generator/cvsite/views.py" />
   </component>
   <component name="RecentsManager">
@@ -190,7 +120,7 @@
       <workItem from="1592930563471" duration="20414000" />
       <workItem from="1593083890039" duration="20952000" />
       <workItem from="1593390830062" duration="1129000" />
-      <workItem from="1593397875407" duration="35843000" />
+      <workItem from="1593397875407" duration="37053000" />
     </task>
     <task id="LOCAL-00001" summary="everything in english">
       <created>1592484157793</created>
@@ -276,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593447878509</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Save CV&#10;&#10;Merge remote-tracking branch 'refs/remotes/origin/master'&#10;&#10;# Conflicts:&#10;#&#9;OOSL_project/settings.py&#10;#&#9;OOSL_project/urls.py&#10;#&#9;db.sqlite&#10;#&#9;static/template1/template1_education.html&#10;#&#9;static/template1/template1_experience.html&#10;#&#9;static/template1/template1_photo.html&#10;#&#9;static/template1/template1_skills.html&#10;#&#9;static/template2/template2_adress.html&#10;#&#9;static/template2/template2_education.html&#10;#&#9;static/template2/template2_experience.html&#10;#&#9;static/template2/template2_photo.html&#10;#&#9;static/template2/template2_skills.html&#10;#&#9;static/template3/template3_education.html&#10;#&#9;static/template3/template3_experience.html&#10;#&#9;static/template3/template3_photo.html&#10;#&#9;static/template3/template3_skills.html&#10;#&#9;static/template4/template4_education.html&#10;#&#9;static/template4/template4_experience.html&#10;#&#9;static/template4/template4_photo.html&#10;#&#9;static/template4/template4_skills.html&#10;#&#9;templates/form_education.html&#10;#&#9;templates/form_experience.html&#10;#&#9;templates/form_language.html&#10;#&#9;templates/form_skill.html&#10;#&#9;templates/generate_cv.html&#10;#&#9;templates/user_data.html&#10;#&#9;test.txt">
+      <created>1593455328377</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1593455328377</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,45 +293,45 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593095808435" />
-    <state x="408" y="0" key="CommitChangelistDialog2" timestamp="1593447988177">
+    <state x="120" y="0" width="1531" height="1050" key="CommitChangelistDialog2" timestamp="1593455324557">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="408" y="0" key="CommitChangelistDialog2/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593103859610" />
+    <state x="120" y="0" width="1531" height="1050" key="CommitChangelistDialog2/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593455324557" />
     <state x="408" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1593447988177" />
-    <state x="92" y="92" width="1736" height="866" maximized="true" key="DiffContextDialog" timestamp="1593455070780">
+    <state x="92" y="92" width="1736" height="866" maximized="true" key="DiffContextDialog" timestamp="1593455440217">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="92" y="92" width="1736" height="866" maximized="true" key="DiffContextDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593455070780" />
+    <state x="92" y="92" width="1736" height="866" maximized="true" key="DiffContextDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593455440217" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1593454921522">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593454921522" />
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050/-1920.584.1920.1080@0.0.1920.1050" timestamp="1593441281963" />
-    <state width="1877" height="326" key="GridCell.Tab.0.bottom" timestamp="1593447768872">
+    <state width="1877" height="326" key="GridCell.Tab.0.bottom" timestamp="1593455435608">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="297" key="GridCell.Tab.0.bottom/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593118502451" />
+    <state width="1877" height="326" key="GridCell.Tab.0.bottom/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593455435608" />
     <state width="1877" height="303" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.584.1920.1080@0.0.1920.1050" timestamp="1593443561806" />
     <state width="1877" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.639.1920.1080/1920.-317.1920.1080@0.0.1920.1050" timestamp="1593433088703" />
     <state width="1877" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1593447768872" />
-    <state width="1877" height="326" key="GridCell.Tab.0.center" timestamp="1593447768872">
+    <state width="1877" height="326" key="GridCell.Tab.0.center" timestamp="1593455435608">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="297" key="GridCell.Tab.0.center/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593118502451" />
+    <state width="1877" height="326" key="GridCell.Tab.0.center/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593455435608" />
     <state width="1877" height="303" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.584.1920.1080@0.0.1920.1050" timestamp="1593443561805" />
     <state width="1877" height="232" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.639.1920.1080/1920.-317.1920.1080@0.0.1920.1050" timestamp="1593433088702" />
     <state width="1877" height="326" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1593447768872" />
-    <state width="1877" height="326" key="GridCell.Tab.0.left" timestamp="1593447768871">
+    <state width="1877" height="326" key="GridCell.Tab.0.left" timestamp="1593455435608">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="297" key="GridCell.Tab.0.left/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593118502451" />
+    <state width="1877" height="326" key="GridCell.Tab.0.left/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593455435608" />
     <state width="1877" height="303" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.584.1920.1080@0.0.1920.1050" timestamp="1593443561805" />
     <state width="1877" height="232" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.639.1920.1080/1920.-317.1920.1080@0.0.1920.1050" timestamp="1593433088702" />
     <state width="1877" height="326" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1593447768871" />
-    <state width="1877" height="326" key="GridCell.Tab.0.right" timestamp="1593447768872">
+    <state width="1877" height="326" key="GridCell.Tab.0.right" timestamp="1593455435608">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="297" key="GridCell.Tab.0.right/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593118502451" />
+    <state width="1877" height="326" key="GridCell.Tab.0.right/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593455435608" />
     <state width="1877" height="303" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.584.1920.1080@0.0.1920.1050" timestamp="1593443561806" />
     <state width="1877" height="232" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.639.1920.1080/1920.-317.1920.1080@0.0.1920.1050" timestamp="1593433088703" />
     <state width="1877" height="326" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1593447768872" />
@@ -416,10 +353,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="550" y="227" key="RollbackChangesDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593103664424" />
-    <state x="461" y="169" width="1141" height="711" key="SettingsEditor" timestamp="1593432651086">
+    <state x="461" y="169" width="1141" height="711" key="SettingsEditor" timestamp="1593456275912">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="169" width="1141" height="711" key="SettingsEditor/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593100949076" />
+    <state x="461" y="169" width="1141" height="711" key="SettingsEditor/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593456275912" />
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050/-1920.639.1920.1080/1920.-317.1920.1080@0.0.1920.1050" timestamp="1593432651086" />
     <state x="681" y="266" width="540" height="524" key="StructurePopup" timestamp="1593440187607">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -437,10 +374,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="846" y="440" key="VCS.EditChangelistDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593090289989" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1593105307907">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1593455390285">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593105307907" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593455390285" />
     <state x="750" y="139" width="332" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1593441383910">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -458,6 +395,10 @@
     </state>
     <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593103680482" />
     <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/-1920.639.1920.1080/1920.-317.1920.1080@0.0.1920.1050" timestamp="1593418063460" />
+    <state x="667" y="124" width="585" height="801" key="find.popup" timestamp="1593456303323">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="667" y="124" width="585" height="801" key="find.popup/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593456303323" />
     <state x="0" y="237" key="git4idea.branch.GitSmartOperationDialog" timestamp="1593100642463">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -466,10 +407,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="562" y="386" key="git4idea.rebase.GitRebaseDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593094730696" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1593444758414">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1593456077715">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593093422014" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593456077715" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.639.1920.1080/1920.-317.1920.1080@0.0.1920.1050" timestamp="1593431406430" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1593444758414" />
     <state x="382" y="275" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1593094393590">
