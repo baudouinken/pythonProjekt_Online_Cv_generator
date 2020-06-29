@@ -215,7 +215,7 @@
                 </li>
             </div>
             <li class="nav-item active">
-                <a class="nav-link" href="{% url 'genarate_template' %}">Generate CV <span
+                <a class="nav-link" href="{% url 'generatecv' %}">Generate CV <span
                         class="sr-only"></span></a>
             </li>
         </ul>
@@ -226,11 +226,11 @@
                    id="dropdownMenuLink"></i>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                     <a class="dropdown-item" href="{% url 'user_data' %}">Data</a>
-                    <a class="dropdown-item" href="{% url 'language' data=3 %}">Languages</a>
-                    <a class="dropdown-item" href="{% url 'education' data=3 %}">Education</a>
-                    <a class="dropdown-item" href="{% url 'experience' data=3 %}">Experience</a>
-                    <a class="dropdown-item" href="{% url 'skill' data=3 %}">Skill</a>
-                    <a class="dropdown-item" href="{% url 'language' data=3 %}">CVs</a>
+                    <a class="dropdown-item" href="{% url 'check_lang' %}">Languages</a>
+                    <a class="dropdown-item" href="{% url 'check_edu'%}">Education</a>
+                    <a class="dropdown-item" href="{% url 'check_exp'%}">Experience</a>
+                    <a class="dropdown-item" href="{% url 'check_skill'%}">Skill</a>
+                    <a class="dropdown-item" href="">CVs</a>
                 </div>
             </div>
         {% endif %}

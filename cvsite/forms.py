@@ -56,3 +56,4 @@ class CVForm(forms.ModelForm):
     class Meta:
         model = Cv
         fields = '__all__'
+        exclude = ['user']

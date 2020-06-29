@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    <style>
+        .card {
+            transition: transform 0.4s;
+            margin-top:40px;
+            padding: 0;
+        }
+
+        .card:hover {
+            transform: translate(3px, -12px);
+            box-shadow: 5px 10px 10px -5px black;
+        }
+    </style>
+
+    {% if cvs %}
+        <div class="container">
+            <div class="row justify-content-around">
+
+                {% for cv in cvs %}
+
+                    <div class="card col-sm-5 text-center">
+                      <img class="card-img-top" style="max-height: 100px; width: 100%; object-fit: cover; object-position: center;"
+                           src="{{ data.picture.url }}" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title">{{ forloop.counter }}</h4>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <a href="{% url 'generatecv' %}" class="btn btn-primary" style="width: 100px">Show</a>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Datum</small>
+                      </div>
+                    </div>
+
+                {% endfor %}
+
+            </div>
+        </div>
+    {% else %}
+        <h2 class="text-center">No CVs yet. <a href="../generate_cv">Generate yours now!</a></h2>
+    {% endif %}
+
+
+{% endblock %}

@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load bootstrap4 %}
 {% load static %}
 
 {% block style %}
@@ -26,26 +27,27 @@
 
     <div class="container">
         <!-- Top -->
-        <div class="row">
+        <div class="row cv">
             <div class="col-4 col cv-top-img">
                 <div id="carouselPhoto" class="col-12 col col-photo carousel slide" data-interval="false"></div>
                 <div id="carouselName" class="col-12 col carousel slide" data-interval="false"></div>
                 <div id="carouselAdress" class="col-12 col carousel slide" data-interval="false"></div>
-                <div id="carouselSkills" class="col-12 col carousel slide" data-interval="false"></div>
                 <div id="carouselLanguage" class="col-12 col carousel slide" data-interval="false"></div>
             </div>
             <div class="col-8 col cv-top-info">
              <!--   <div id="carouselAbout" class="col-12 col carousel slide" data-interval="false"></div> -->
                 <div id="carouselExperience" class="col-12 col carousel slide" data-interval="false"></div>
                 <div id="carouselEducation" class="col-12 col carousel slide" data-interval="false"></div>
+                <div id="carouselSkills" class="col-12 col carousel slide" data-interval="false"></div>
             </div>
         </div>
 
-        <!-- Content -->
-        <div class="row">
-            <div>
-
-            </div>
+        <div class="container text-center my-5">
+            <form action="" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                {% bootstrap_form form %}
+                <button type="submit" class="btn btn-lg btn-primary" style="width: 120px" onclick="save()">Save</button>
+            </form>
         </div>
     </div>
 
@@ -78,6 +80,8 @@
         {% endfor %}
 
         $(function(){
+            $(".form-group").hide()
+
             //initialize content of iframes
             $("iframe").contents().find(".image").attr("src", "{{ data.picture.url }}")
             $("iframe").contents().find(".text-name").html("{{ data.firstname }} <br> {{ data.lastname }}")
@@ -130,7 +134,9 @@
                 yearsFromExp.push("{{ exp.start }}")
                 yearsToExp.push("{{ exp.end }}")
                 institutionsExp.push("{{ exp.institution }}")
-                descriptionsExp.push("{{ exp.description|linebreaks }}")
+                {% autoescape on %}
+                    descriptionsExp.push("{{ exp.description|linebreaksbr}}")
+                {% endautoescape %}
             {% endfor %}
             descriptionsExp.forEach((s, i) => {
                 if(i === 0) {
@@ -192,6 +198,32 @@
                 iframe.style.height = iframe.contentWindow.document.documentElement.scrollHeight + 'px';
             })
         })
+
+        function save() {
+            var activeTemplates = $(".carousel-item.active")
+
+            var photo, name, adress, language, experience, education, skills;
+
+            activeTemplates.each((i,t) => {
+                var src = $(t).find("iframe").attr("src")
+                if(src.includes("photo")) photo = src
+                else if(src.includes("name")) name = src
+                else if(src.includes("adress")) adress = src
+                else if(src.includes("language")) language = src
+                else if(src.includes("experience")) experience = src
+                else if(src.includes("education")) education = src
+                else if(src.includes("skills")) skills = src
+            })
+
+            $("#id_template_adresse").val(adress)
+            $("#id_template_education").val(education)
+            $("#id_template_photo").val(photo)
+            $("#id_template_name").val(name)
+            $("#id_template_language").val(language)
+            $("#id_template_experience").val(experience)
+            $("#id_template_skills").val(skills)
+
+        }
     </script>
 
 

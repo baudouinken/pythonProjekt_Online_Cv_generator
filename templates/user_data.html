@@ -3,10 +3,11 @@
 {% block content %}
 
     <form action="" method="post" enctype="multipart/form-data">
-    {% csrf_token %}
-    {% bootstrap_form form %}
-    <input type="submit" value="Save">
-    <input type="reset" value="Reset" />
+        {% csrf_token %}
+        {% bootstrap_form form %}
+        <button type="reset" class="btn btn-primary mb-2">Reset</button>
+        <button type="submit" class="btn btn-primary mb-2">Save</button>
+        <a href="{% url 'next_data' %}" class="btn btn-primary mb-2">Next</a>
     </form>
 
 {% endblock %}

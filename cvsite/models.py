@@ -53,7 +53,6 @@ class Skill(models.Model):
 
 
 class Cv(models.Model):
-    template_about = models.CharField(max_length=100)
     template_adresse = models.CharField(max_length=100)
     template_education = models.CharField(max_length=100)
     template_experience = models.CharField(max_length=100)

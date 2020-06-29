@@ -208,3 +208,17 @@ fabric.properties
 
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
+/cvsite/migrations/Müll/0001_initial.py
+/cvsite/migrations/Müll/0002_auto_20200613_1543.py
+/cvsite/migrations/Müll/0002_data_thumb.py
+/cvsite/migrations/Müll/0003_auto_20200605_1040.py
+/cvsite/migrations/Müll/0003_auto_20200613_1554.py
+/cvsite/migrations/Müll/0004_auto_20200605_1055.py
+/cvsite/migrations/Müll/0005_auto_20200605_1056.py
+/cvsite/migrations/Müll/0006_delete_cv.py
+/cvsite/migrations/Müll/0007_auto_20200605_1118.py
+/cvsite/migrations/Müll/0008_auto_20200605_1136.py
+/cvsite/migrations/Müll/0009_merge_20200623_1903.py
+/cvsite/migrations/Müll/0009_merge_20200623_1949.py
+/cvsite/migrations/Müll/0010_merge_20200629_1620.py
+/out.pdf

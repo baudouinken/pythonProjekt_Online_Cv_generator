@@ -26,12 +26,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa702f20-b0de-42cf-9633-c14ab4f6d473" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/base3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cvsite/wkhtmltopdf/bin/wkhtmltoimage.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cvsite/wkhtmltopdf/bin/wkhtmltopdf.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cvsite/wkhtmltopdf/bin/wkhtmltox.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cvsite/wkhtmltopdf/include/wkhtmltox/dllbegin.inc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cvsite/wkhtmltopdf/include/wkhtmltox/dllend.inc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cvsite/wkhtmltopdf/include/wkhtmltox/image.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cvsite/wkhtmltopdf/include/wkhtmltox/pdf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cvsite/wkhtmltopdf/uninstall.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/CIMG0269.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/mycvs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/OOSL_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OOSL_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8afa51e8-b604-4a6b-8128-b9331023a6af.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8afa51e8-b604-4a6b-8128-b9331023a6af.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_06_2020_17_57__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_06_2020_17_57__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_25_06_2020_16_07__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_25_06_2020_16_07__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_25_06_2020_16_08__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_25_06_2020_16_08__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_25_06_2020_16_13__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_25_06_2020_16_13__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_25_06_2020_16_16__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_25_06_2020_16_16__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_14_55__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_14_55__Default_Changelist_.xml" afterDir="false" />
@@ -48,12 +60,44 @@
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_18_09__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_18_09__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOSL_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOSL_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvsite/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/cvsite/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/cvsite/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0002_auto_20200613_1543.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0002_data_thumb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0003_auto_20200605_1040.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0003_auto_20200613_1554.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0004_auto_20200605_1055.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0005_auto_20200605_1056.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0006_delete_cv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0007_auto_20200605_1118.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0008_auto_20200605_1136.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0009_merge_20200623_1903.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0009_merge_20200623_1949.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvsite/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cvsite/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cvsite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cvsite/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/template1/template1_adress.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template1/template1_adress.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/template3/template3_education.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template3/template3_education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/template4/template4_education.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template4/template4_education.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/f_user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base3.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/education_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/education_edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/experience_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/experience_edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/form_ausbildung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/form_beruf.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/form_education.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/form_education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/form_experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/form_experience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/form_kentnisse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/form_language.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/form_language.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/form_skill.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/form_skill.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/form_sprachen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/generate_cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/generate_cv.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/language_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/language_edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/show_data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/skill_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/skill_edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/user_data.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user_data.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/user_list.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,43 +132,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="database.data.extractors.current.id" value="SQL Inserts" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/pythonProjekt_Online_Cv_generator/pythonProjekt_Online_Cv_generator/cvsite/views.py" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="file.status.colors" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="two.files.diff.last.used.file" value="$USER_HOME$/Downloads/pythonProjekt_Online_Cv_generator/pythonProjekt_Online_Cv_generator/cvsite/views.py" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Benutzer\Norman\Uni\Semester4\Objektorientierte Skriptsprachen\Semesterprojekt\pythonProjekt_Online_Cv_generator" />
-      <recent name="D:\Benutzer\Norman\Uni\Semester4\Objektorientierte Skriptsprachen\Semesterprojekt\pythonProjekt_Online_Cv_generator\OOSL_project" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Benutzer\Norman\Uni\Semester4\Objektorientierte Skriptsprachen\Semesterprojekt\pythonProjekt_Online_Cv_generator\templates" />
       <recent name="D:\Benutzer\Norman\Uni\Semester4\Objektorientierte Skriptsprachen\Semesterprojekt\pythonProjekt_Online_Cv_generator\cvsite" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Benutzer\Norman\Uni\Semester4\Objektorientierte Skriptsprachen\Semesterprojekt\pythonProjekt_Online_Cv_generator\cvsite" />
+      <recent name="D:\Benutzer\Norman\Uni\Semester4\Objektorientierte Skriptsprachen\Semesterprojekt\pythonProjekt_Online_Cv_generator" />
+      <recent name="D:\Benutzer\Norman\Uni\Semester4\Objektorientierte Skriptsprachen\Semesterprojekt\pythonProjekt_Online_Cv_generator\OOSL_project" />
+      <recent name="D:\Benutzer\Norman\Uni\Semester4\Objektorientierte Skriptsprachen\Semesterprojekt\pythonProjekt_Online_Cv_generator\templates" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <module name="OOSL_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Dev\AppData\Local\Programs\Python\Python38-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="cvsite" type="Python.DjangoServer" factoryName="Django server">
+    <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" nameIsGenerated="true">
       <module name="OOSL_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,14 +159,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="OOSL_project.settings" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Dev\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="SDK_HOME" value="D:\Program Files\Python37\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
-      <option name="host" value="" />
+      <option name="host" value="localhost" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
@@ -161,10 +188,9 @@
       <updated>1592482929026</updated>
       <workItem from="1592482931426" duration="9703000" />
       <workItem from="1592930563471" duration="20414000" />
-      <workItem from="1593083890039" duration="18458000" />
-      <workItem from="1593105487901" duration="514000" />
-      <workItem from="1593110889983" duration="17269000" />
-      <workItem from="1593181059449" duration="3847000" />
+      <workItem from="1593083890039" duration="20952000" />
+      <workItem from="1593390830062" duration="1129000" />
+      <workItem from="1593397875407" duration="35843000" />
     </task>
     <task id="LOCAL-00001" summary="everything in english">
       <created>1592484157793</created>
@@ -222,7 +248,35 @@
       <option name="project" value="LOCAL" />
       <updated>1593098183828</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="scheiß commits alter">
+      <created>1593103630312</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593103630312</updated>
+    </task>
+    <task id="LOCAL-00010" summary="scheiß commits alter">
+      <created>1593103677570</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593103677570</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'refs/remotes/origin/master'&#10;&#10;# Conflicts:&#10;#&#9;OOSL_project/settings.py&#10;#&#9;OOSL_project/urls.py&#10;#&#9;db.sqlite&#10;#&#9;static/template1/template1_education.html&#10;#&#9;static/template1/template1_experience.html&#10;#&#9;static/template1/template1_photo.html&#10;#&#9;static/template1/template1_skills.html&#10;#&#9;static/template2/template2_adress.html&#10;#&#9;static/template2/template2_education.html&#10;#&#9;static/template2/template2_experience.html&#10;#&#9;static/template2/template2_photo.html&#10;#&#9;static/template2/template2_skills.html&#10;#&#9;static/template3/template3_education.html&#10;#&#9;static/template3/template3_experience.html&#10;#&#9;static/template3/template3_photo.html&#10;#&#9;static/template3/template3_skills.html&#10;#&#9;static/template4/template4_education.html&#10;#&#9;static/template4/template4_experience.html&#10;#&#9;static/template4/template4_photo.html&#10;#&#9;static/template4/template4_skills.html&#10;#&#9;templates/form_education.html&#10;#&#9;templates/form_experience.html&#10;#&#9;templates/form_language.html&#10;#&#9;templates/form_skill.html&#10;#&#9;templates/generate_cv.html&#10;#&#9;templates/user_data.html&#10;#&#9;test.txt">
+      <created>1593103868926</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1593103868926</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Merge remote-tracking branch 'refs/remotes/origin/master'&#10;&#10;# Conflicts:&#10;#&#9;OOSL_project/settings.py&#10;#&#9;OOSL_project/urls.py&#10;#&#9;db.sqlite&#10;#&#9;static/template1/template1_education.html&#10;#&#9;static/template1/template1_experience.html&#10;#&#9;static/template1/template1_photo.html&#10;#&#9;static/template1/template1_skills.html&#10;#&#9;static/template2/template2_adress.html&#10;#&#9;static/template2/template2_education.html&#10;#&#9;static/template2/template2_experience.html&#10;#&#9;static/template2/template2_photo.html&#10;#&#9;static/template2/template2_skills.html&#10;#&#9;static/template3/template3_education.html&#10;#&#9;static/template3/template3_experience.html&#10;#&#9;static/template3/template3_photo.html&#10;#&#9;static/template3/template3_skills.html&#10;#&#9;static/template4/template4_education.html&#10;#&#9;static/template4/template4_experience.html&#10;#&#9;static/template4/template4_photo.html&#10;#&#9;static/template4/template4_skills.html&#10;#&#9;templates/form_education.html&#10;#&#9;templates/form_experience.html&#10;#&#9;templates/form_language.html&#10;#&#9;templates/form_skill.html&#10;#&#9;templates/generate_cv.html&#10;#&#9;templates/user_data.html&#10;#&#9;test.txt">
+      <created>1593447878509</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1593447878509</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +329,10 @@
     <MESSAGE value="add fotos caroussel&#10;&#10;# Conflicts:&#10;#&#9;.idea/OOSL_project.iml&#10;#&#9;.idea/dataSources.xml&#10;#&#9;.idea/misc.xml&#10;#&#9;OOSL_project/__pycache__/__init__.cpython-36.pyc&#10;#&#9;OOSL_project/__pycache__/__init__.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/__init__.cpython-38.pyc&#10;#&#9;OOSL_project/__pycache__/settings.cpython-36.pyc&#10;#&#9;OOSL_project/__pycache__/settings.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/settings.cpython-38.pyc&#10;#&#9;OOSL_project/__pycache__/urls.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/wsgi.cpython-37.pyc&#10;#&#9;OOSL_project/settings.py&#10;#&#9;OOSL_project/urls.py&#10;#&#9;__pycache__/manage.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/__init__.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/__init__.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/admin.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/admin.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/forms.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/forms.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/models.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/models.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/views.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/views.cpython-38.pyc&#10;#&#9;cvsite/views.py&#10;#&#9;db.sqlite&#10;#&#9;static/template1/template1_education.html&#10;#&#9;static/template1/template1_experience.html&#10;#&#9;static/template1/template1_photo.html&#10;#&#9;static/template1/template1_skills.html&#10;#&#9;static/template2/template2_adress.html&#10;#&#9;static/template2/template2_education.html&#10;#&#9;static/template2/template2_experience.html&#10;#&#9;static/template2/template2_photo.html&#10;#&#9;static/template2/template2_skills.html&#10;#&#9;static/template3/template3_education.html&#10;#&#9;static/template3/template3_experience.html&#10;#&#9;static/template3/template3_photo.html&#10;#&#9;static/template3/template3_skills.html&#10;#&#9;static/template4/template4_education.html&#10;#&#9;static/template4/template4_experience.html&#10;#&#9;static/template4/template4_photo.html&#10;#&#9;static/template4/template4_skills.html&#10;#&#9;templates/base.html&#10;#&#9;templates/form_education.html&#10;#&#9;templates/form_experience.html&#10;#&#9;templates/form_language.html&#10;#&#9;templates/form_skill.html&#10;#&#9;templates/generate_cv.html&#10;#&#9;templates/home.html&#10;#&#9;templates/user_data.html" />
     <MESSAGE value="add fotos caroussel&#10;&#10;# Conflicts:&#10;#&#9;.idea/OOSL_project.iml&#10;#&#9;.idea/dataSources.xml&#10;#&#9;.idea/misc.xml&#10;#&#9;OOSL_project/__pycache__/__init__.cpython-36.pyc&#10;#&#9;OOSL_project/__pycache__/__init__.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/__init__.cpython-38.pyc&#10;#&#9;OOSL_project/__pycache__/settings.cpython-36.pyc&#10;#&#9;OOSL_project/__pycache__/settings.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/settings.cpython-38.pyc&#10;#&#9;OOSL_project/__pycache__/urls.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/wsgi.cpython-37.pyc&#10;#&#9;OOSL_project/settings.py&#10;#&#9;OOSL_project/urls.py&#10;#&#9;__pycache__/manage.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/__init__.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/__init__.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/admin.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/admin.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/forms.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/forms.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/models.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/models.cpython-38.pyc&#10;#&#9;cvsite/__pycache__/views.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/views.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0001_initial.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0001_initial.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0002_auto_20200613_1543.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0002_data_thumb.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0002_data_thumb.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0003_auto_20200605_1040.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0003_auto_20200605_1040.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0003_auto_20200613_1554.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0004_auto_20200605_1055.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0004_auto_20200605_1055.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0005_auto_20200605_1056.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0005_auto_20200605_1056.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0006_delete_cv.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0006_delete_cv.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0007_auto_20200605_1118.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0007_auto_20200605_1118.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/0008_auto_20200605_1136.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0008_auto_20200605_1136.cpython-38.pyc&#10;#&#9;cvsite/migrations/__pycache__/__init__.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/__init__.cpython-38.pyc&#10;#&#9;cvsite/views.py&#10;#&#9;db.sqlite&#10;#&#9;static/template1/template1_education.html&#10;#&#9;static/template1/template1_experience.html&#10;#&#9;static/template1/template1_photo.html&#10;#&#9;static/template1/template1_skills.html&#10;#&#9;static/template2/template2_adress.html&#10;#&#9;static/template2/template2_education.html&#10;#&#9;static/template2/template2_experience.html&#10;#&#9;static/template2/template2_photo.html&#10;#&#9;static/template2/template2_skills.html&#10;#&#9;static/template3/template3_education.html&#10;#&#9;static/template3/template3_experience.html&#10;#&#9;static/template3/template3_photo.html&#10;#&#9;static/template3/template3_skills.html&#10;#&#9;static/template4/template4_education.html&#10;#&#9;static/template4/template4_experience.html&#10;#&#9;static/template4/template4_photo.html&#10;#&#9;static/template4/template4_skills.html&#10;#&#9;templates/base.html&#10;#&#9;templates/form_education.html&#10;#&#9;templates/form_experience.html&#10;#&#9;templates/form_language.html&#10;#&#9;templates/form_skill.html&#10;#&#9;templates/generate_cv.html&#10;#&#9;templates/home.html&#10;#&#9;templates/user_data.html" />
     <MESSAGE value="modif Home and Login&#10;&#10;# Conflicts:&#10;#&#9;OOSL_project/__pycache__/__init__.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/settings.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/urls.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/wsgi.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/__init__.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/admin.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/forms.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/models.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/views.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0001_initial.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0002_auto_20200613_1543.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0002_data_thumb.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0003_auto_20200605_1040.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0003_auto_20200613_1554.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0004_auto_20200605_1055.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0005_auto_20200605_1056.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0006_delete_cv.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0007_auto_20200605_1118.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0008_auto_20200605_1136.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0009_merge_20200623_1903.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/__init__.cpython-37.pyc&#10;#&#9;cvsite/views.py&#10;#&#9;db.sqlite&#10;#&#9;static/img/img_templates/template1/template1_tof.png&#10;#&#9;static/img/img_templates/template2/template2_tof.png&#10;#&#9;templates/base.html&#10;#&#9;templates/home.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif Home and Login&#10;&#10;# Conflicts:&#10;#&#9;OOSL_project/__pycache__/__init__.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/settings.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/urls.cpython-37.pyc&#10;#&#9;OOSL_project/__pycache__/wsgi.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/__init__.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/admin.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/forms.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/models.cpython-37.pyc&#10;#&#9;cvsite/__pycache__/views.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0001_initial.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0002_auto_20200613_1543.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0002_data_thumb.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0003_auto_20200605_1040.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0003_auto_20200613_1554.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0004_auto_20200605_1055.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0005_auto_20200605_1056.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0006_delete_cv.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0007_auto_20200605_1118.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0008_auto_20200605_1136.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/0009_merge_20200623_1903.cpython-37.pyc&#10;#&#9;cvsite/migrations/__pycache__/__init__.cpython-37.pyc&#10;#&#9;cvsite/views.py&#10;#&#9;db.sqlite&#10;#&#9;static/img/img_templates/template1/template1_tof.png&#10;#&#9;static/img/img_templates/template2/template2_tof.png&#10;#&#9;templates/base.html&#10;#&#9;templates/home.html" />
+    <MESSAGE value="scheiß commits alter" />
+    <MESSAGE value="Merge remote-tracking branch 'refs/remotes/origin/master'&#10;&#10;# Conflicts:&#10;#&#9;OOSL_project/settings.py&#10;#&#9;OOSL_project/urls.py&#10;#&#9;db.sqlite&#10;#&#9;static/template1/template1_education.html&#10;#&#9;static/template1/template1_experience.html&#10;#&#9;static/template1/template1_photo.html&#10;#&#9;static/template1/template1_skills.html&#10;#&#9;static/template2/template2_adress.html&#10;#&#9;static/template2/template2_education.html&#10;#&#9;static/template2/template2_experience.html&#10;#&#9;static/template2/template2_photo.html&#10;#&#9;static/template2/template2_skills.html&#10;#&#9;static/template3/template3_education.html&#10;#&#9;static/template3/template3_experience.html&#10;#&#9;static/template3/template3_photo.html&#10;#&#9;static/template3/template3_skills.html&#10;#&#9;static/template4/template4_education.html&#10;#&#9;static/template4/template4_experience.html&#10;#&#9;static/template4/template4_photo.html&#10;#&#9;static/template4/template4_skills.html&#10;#&#9;templates/form_education.html&#10;#&#9;templates/form_experience.html&#10;#&#9;templates/form_language.html&#10;#&#9;templates/form_skill.html&#10;#&#9;templates/generate_cv.html&#10;#&#9;templates/user_data.html&#10;#&#9;test.txt" />
+    <MESSAGE value="Save CV&#10;&#10;Merge remote-tracking branch 'refs/remotes/origin/master'&#10;&#10;# Conflicts:&#10;#&#9;OOSL_project/settings.py&#10;#&#9;OOSL_project/urls.py&#10;#&#9;db.sqlite&#10;#&#9;static/template1/template1_education.html&#10;#&#9;static/template1/template1_experience.html&#10;#&#9;static/template1/template1_photo.html&#10;#&#9;static/template1/template1_skills.html&#10;#&#9;static/template2/template2_adress.html&#10;#&#9;static/template2/template2_education.html&#10;#&#9;static/template2/template2_experience.html&#10;#&#9;static/template2/template2_photo.html&#10;#&#9;static/template2/template2_skills.html&#10;#&#9;static/template3/template3_education.html&#10;#&#9;static/template3/template3_experience.html&#10;#&#9;static/template3/template3_photo.html&#10;#&#9;static/template3/template3_skills.html&#10;#&#9;static/template4/template4_education.html&#10;#&#9;static/template4/template4_experience.html&#10;#&#9;static/template4/template4_photo.html&#10;#&#9;static/template4/template4_skills.html&#10;#&#9;templates/form_education.html&#10;#&#9;templates/form_experience.html&#10;#&#9;templates/form_language.html&#10;#&#9;templates/form_skill.html&#10;#&#9;templates/generate_cv.html&#10;#&#9;templates/user_data.html&#10;#&#9;test.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Save CV&#10;&#10;Merge remote-tracking branch 'refs/remotes/origin/master'&#10;&#10;# Conflicts:&#10;#&#9;OOSL_project/settings.py&#10;#&#9;OOSL_project/urls.py&#10;#&#9;db.sqlite&#10;#&#9;static/template1/template1_education.html&#10;#&#9;static/template1/template1_experience.html&#10;#&#9;static/template1/template1_photo.html&#10;#&#9;static/template1/template1_skills.html&#10;#&#9;static/template2/template2_adress.html&#10;#&#9;static/template2/template2_education.html&#10;#&#9;static/template2/template2_experience.html&#10;#&#9;static/template2/template2_photo.html&#10;#&#9;static/template2/template2_skills.html&#10;#&#9;static/template3/template3_education.html&#10;#&#9;static/template3/template3_experience.html&#10;#&#9;static/template3/template3_photo.html&#10;#&#9;static/template3/template3_skills.html&#10;#&#9;static/template4/template4_education.html&#10;#&#9;static/template4/template4_experience.html&#10;#&#9;static/template4/template4_photo.html&#10;#&#9;static/template4/template4_skills.html&#10;#&#9;templates/form_education.html&#10;#&#9;templates/form_experience.html&#10;#&#9;templates/form_language.html&#10;#&#9;templates/form_skill.html&#10;#&#9;templates/generate_cv.html&#10;#&#9;templates/user_data.html&#10;#&#9;test.txt" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -287,11 +344,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="752" y="383" key="#Scopes/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593098805900" />
-    <state x="392" y="147" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593106001121">
-      <screen x="78" y="0" width="1458" height="864" />
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592482951966">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1592482951966" />
-    <state x="392" y="147" key="#com.intellij.execution.impl.EditConfigurationsDialog/78.0.1458.864@78.0.1458.864" timestamp="1593106001121" />
     <state x="722" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592483389979">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -300,83 +356,108 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593095808435" />
-    <state x="408" y="0" key="CommitChangelistDialog2" timestamp="1593102712071">
+    <state x="408" y="0" key="CommitChangelistDialog2" timestamp="1593447988177">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="408" y="0" key="CommitChangelistDialog2/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593102712071" />
-    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1593098249877">
+    <state x="408" y="0" key="CommitChangelistDialog2/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593103859610" />
+    <state x="408" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1593447988177" />
+    <state x="92" y="92" width="1736" height="866" maximized="true" key="DiffContextDialog" timestamp="1593455070780">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593098249877" />
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1592483053816">
+    <state x="92" y="92" width="1736" height="866" maximized="true" key="DiffContextDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593455070780" />
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1593454921522">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1592483053816" />
-    <state width="1415" height="217" key="GridCell.Tab.0.bottom" timestamp="1593207269125">
-      <screen x="78" y="0" width="1458" height="864" />
+    <state x="740" y="279" key="FileChooserDialogImpl/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593454921522" />
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050/-1920.584.1920.1080@0.0.1920.1050" timestamp="1593441281963" />
+    <state width="1877" height="326" key="GridCell.Tab.0.bottom" timestamp="1593447768872">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1132" height="297" key="GridCell.Tab.0.bottom/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593103481618" />
-    <state width="1415" height="217" key="GridCell.Tab.0.bottom/78.0.1458.864@78.0.1458.864" timestamp="1593207269125" />
-    <state width="1799" height="217" key="GridCell.Tab.0.bottom/78.0.1842.1080/1982.0.1858.1080@78.0.1842.1080" timestamp="1593172757100" />
-    <state width="1415" height="217" key="GridCell.Tab.0.center" timestamp="1593207269125">
-      <screen x="78" y="0" width="1458" height="864" />
+    <state width="1877" height="297" key="GridCell.Tab.0.bottom/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593118502451" />
+    <state width="1877" height="303" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.584.1920.1080@0.0.1920.1050" timestamp="1593443561806" />
+    <state width="1877" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.639.1920.1080/1920.-317.1920.1080@0.0.1920.1050" timestamp="1593433088703" />
+    <state width="1877" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1593447768872" />
+    <state width="1877" height="326" key="GridCell.Tab.0.center" timestamp="1593447768872">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1132" height="297" key="GridCell.Tab.0.center/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593103481618" />
-    <state width="1415" height="217" key="GridCell.Tab.0.center/78.0.1458.864@78.0.1458.864" timestamp="1593207269125" />
-    <state width="1799" height="217" key="GridCell.Tab.0.center/78.0.1842.1080/1982.0.1858.1080@78.0.1842.1080" timestamp="1593172757100" />
-    <state width="1415" height="217" key="GridCell.Tab.0.left" timestamp="1593207269124">
-      <screen x="78" y="0" width="1458" height="864" />
+    <state width="1877" height="297" key="GridCell.Tab.0.center/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593118502451" />
+    <state width="1877" height="303" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.584.1920.1080@0.0.1920.1050" timestamp="1593443561805" />
+    <state width="1877" height="232" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.639.1920.1080/1920.-317.1920.1080@0.0.1920.1050" timestamp="1593433088702" />
+    <state width="1877" height="326" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1593447768872" />
+    <state width="1877" height="326" key="GridCell.Tab.0.left" timestamp="1593447768871">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1132" height="297" key="GridCell.Tab.0.left/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593103481618" />
-    <state width="1415" height="217" key="GridCell.Tab.0.left/78.0.1458.864@78.0.1458.864" timestamp="1593207269124" />
-    <state width="1799" height="217" key="GridCell.Tab.0.left/78.0.1842.1080/1982.0.1858.1080@78.0.1842.1080" timestamp="1593172757100" />
-    <state width="1415" height="217" key="GridCell.Tab.0.right" timestamp="1593207269125">
-      <screen x="78" y="0" width="1458" height="864" />
+    <state width="1877" height="297" key="GridCell.Tab.0.left/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593118502451" />
+    <state width="1877" height="303" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.584.1920.1080@0.0.1920.1050" timestamp="1593443561805" />
+    <state width="1877" height="232" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.639.1920.1080/1920.-317.1920.1080@0.0.1920.1050" timestamp="1593433088702" />
+    <state width="1877" height="326" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1593447768871" />
+    <state width="1877" height="326" key="GridCell.Tab.0.right" timestamp="1593447768872">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1132" height="297" key="GridCell.Tab.0.right/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593103481618" />
-    <state width="1415" height="217" key="GridCell.Tab.0.right/78.0.1458.864@78.0.1458.864" timestamp="1593207269125" />
-    <state width="1799" height="217" key="GridCell.Tab.0.right/78.0.1842.1080/1982.0.1858.1080@78.0.1842.1080" timestamp="1593172757100" />
-    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1592483418339">
+    <state width="1877" height="297" key="GridCell.Tab.0.right/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593118502451" />
+    <state width="1877" height="303" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.584.1920.1080@0.0.1920.1050" timestamp="1593443561806" />
+    <state width="1877" height="232" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.639.1920.1080/1920.-317.1920.1080@0.0.1920.1050" timestamp="1593433088703" />
+    <state width="1877" height="326" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1593447768872" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1593441125540">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1592483418339" />
-    <state x="184" y="87" key="MergeDialog" timestamp="1593102782805">
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1050/-1920.584.1920.1080@0.0.1920.1050" timestamp="1593441125540" />
+    <state x="184" y="87" key="MergeDialog" timestamp="1593391208010">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="184" y="87" key="MergeDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593102782805" />
-    <state x="394" y="44" width="1048" height="893" key="MultipleFileMergeDialog" timestamp="1593102788997">
+    <state x="184" y="87" key="MergeDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593103809515" />
+    <state x="184" y="87" key="MergeDialog/0.0.1920.1050/-1920.639.1920.1080/1920.-317.1920.1080@0.0.1920.1050" timestamp="1593391208010" />
+    <state x="394" y="44" width="1048" height="893" key="MultipleFileMergeDialog" timestamp="1593103831968">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="394" y="44" width="1048" height="893" key="MultipleFileMergeDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593102788997" />
-    <state x="550" y="227" key="RollbackChangesDialog" timestamp="1593095723020">
+    <state x="394" y="44" width="1048" height="893" key="MultipleFileMergeDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593103831968" />
+    <state x="550" y="227" key="RollbackChangesDialog" timestamp="1593103664424">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="550" y="227" key="RollbackChangesDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593095723020" />
-    <state x="461" y="169" width="1141" height="711" key="SettingsEditor" timestamp="1593100949076">
+    <state x="550" y="227" key="RollbackChangesDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593103664424" />
+    <state x="461" y="169" width="1141" height="711" key="SettingsEditor" timestamp="1593432651086">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" width="1141" height="711" key="SettingsEditor/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593100949076" />
+    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050/-1920.639.1920.1080/1920.-317.1920.1080@0.0.1920.1050" timestamp="1593432651086" />
+    <state x="681" y="266" width="540" height="524" key="StructurePopup" timestamp="1593440187607">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="681" y="266" width="540" height="524" key="StructurePopup/0.0.1920.1050/-1920.584.1920.1080@0.0.1920.1050" timestamp="1593440187607" />
     <state x="747" y="240" width="505" height="580" key="VCS.ChangeListViewerDialog" timestamp="1593095040442">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="747" y="240" width="505" height="580" key="VCS.ChangeListViewerDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593095040442" />
-    <state x="807" y="439" key="VCS.ChangelistChooser" timestamp="1593091815674">
+    <state x="807" y="439" key="VCS.ChangelistChooser" timestamp="1593103643255">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="807" y="439" key="VCS.ChangelistChooser/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593091815674" />
+    <state x="807" y="439" key="VCS.ChangelistChooser/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593103643255" />
     <state x="846" y="440" key="VCS.EditChangelistDialog" timestamp="1593090289989">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="846" y="440" key="VCS.EditChangelistDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593090289989" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1593098251889">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1593105307907">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593098251889" />
-    <state x="662" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593110943444">
-      <screen x="78" y="0" width="1458" height="864" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593105307907" />
+    <state x="750" y="139" width="332" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1593441383910">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593103558791" />
-    <state x="662" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/78.0.1458.864@78.0.1458.864" timestamp="1593110943444" />
+    <state x="750" y="139" width="332" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1050/-1920.584.1920.1080@0.0.1920.1050" timestamp="1593441383910" />
+    <state x="540" y="179" key="com.intellij.database.dbimport.ImportDialog" timestamp="1593441291230">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="540" y="179" key="com.intellij.database.dbimport.ImportDialog/0.0.1920.1050/-1920.584.1920.1080@0.0.1920.1050" timestamp="1593441291230" />
+    <state x="454" y="199" width="980" height="751" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1593440508339">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="454" y="199" width="980" height="751" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1050/-1920.584.1920.1080@0.0.1920.1050" timestamp="1593440508339" />
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593418063460">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593103680482" />
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/-1920.639.1920.1080/1920.-317.1920.1080@0.0.1920.1050" timestamp="1593418063460" />
     <state x="0" y="237" key="git4idea.branch.GitSmartOperationDialog" timestamp="1593100642463">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -385,10 +466,12 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="562" y="386" key="git4idea.rebase.GitRebaseDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593094730696" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1593093422014">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1593444758414">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593093422014" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.639.1920.1080/1920.-317.1920.1080@0.0.1920.1050" timestamp="1593431406430" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1593444758414" />
     <state x="382" y="275" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1593094393590">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
