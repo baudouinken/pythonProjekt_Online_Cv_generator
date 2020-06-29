@@ -110,7 +110,7 @@ def login_view(request):
             try:
                 dt = Data.objects.get(user=user)
                 dt_id = dt.id
-                return render(request, 'base3.html', {'page_title': 'Home CV Generator', 'data': dt_id})
+                return render(request, 'home.html', {'page_title': 'Home CV Generator', })
             except Data.DoesNotExist:
                 return redirect('user_data')
     else:
