@@ -16,9 +16,13 @@ def get_home(request):
 
 
 def mycvs(request):
-    cvs = Cv.objects.filter(user=request.user)
-    data = Data.objects.get(user=request.user)
-    return render(request, 'mycvs.html', {'page_title': 'My CVs', 'cvs': cvs, 'data': data})
+    try:
+        cvs = Cv.objects.filter(user=request.user)
+        data = Data.objects.get(user=request.user)
+        return render(request, 'mycvs.html', {'page_title': 'My CVs', 'cvs': cvs, 'data': data})
+    except Data.DoesNotExist:
+        messages.error(request, 'You don\'t have Data.')
+        return redirect('user_data')
 
 
 @login_required(login_url="/login")
@@ -183,7 +187,7 @@ def check_lang(request):
         dt_id = dt.id
         return redirect('language', data=dt_id)
     except Data.DoesNotExist:
-        messages.error(request, 'You do not have Data.')
+        messages.error(request, 'You don\'t have Data.')
         return redirect('user_data')
 
 
@@ -254,7 +258,7 @@ def check_skill(request):
         dt_id = dt.id
         return redirect('skill', data=dt_id)
     except Data.DoesNotExist:
-        messages.error(request, 'You do not have Data.')
+        messages.error(request, 'You don\'t have Data.')
         return redirect('user_data')
 
 
@@ -327,7 +331,7 @@ def check_exp(request):
         dt_id = dt.id
         return redirect('experience', data=dt_id)
     except Data.DoesNotExist:
-        messages.error(request, 'You do not have Data.')
+        messages.error(request, 'You don\'t have Data.')
         return redirect('user_data')
 
 
@@ -427,5 +431,5 @@ def check_edu(request):
         dt_id = dt.id
         return redirect('education', data=dt_id)
     except Data.DoesNotExist:
-        messages.error(request, 'You do not have Data.')
+        messages.error(request, 'You don\'t have Data.')
         return redirect('user_data')
