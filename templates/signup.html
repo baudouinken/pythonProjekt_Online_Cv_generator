@@ -1,10 +1,11 @@
 {% extends 'base.html' %}
+{% load bootstrap4 %}
 {% block content %}
     <h1>Signup</h1>
     <form class="site-form" action="" method="post">
-    {% csrf_token %}
-    {{ form }}
-    <input type="submit" value="Signup">
+        {% csrf_token %}
+        {% bootstrap_form form %}
+        <button type="submit" class="btn btn-dark">Signup</button>
     </form>
 
 {% endblock %}

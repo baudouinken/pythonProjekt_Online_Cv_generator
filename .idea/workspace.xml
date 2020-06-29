@@ -26,8 +26,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa702f20-b0de-42cf-9633-c14ab4f6d473" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/OOSL_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OOSL_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_06_2020_17_57__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_06_2020_17_57__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_25_06_2020_16_07__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_25_06_2020_16_07__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_25_06_2020_16_08__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_25_06_2020_16_08__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_25_06_2020_16_13__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_25_06_2020_16_13__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_25_06_2020_16_16__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_25_06_2020_16_16__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_14_55__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_14_55__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_14_56__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_14_56__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_15_11__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_15_11__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_15_30__test_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_15_30__test_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_10__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_10__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_14__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_14__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_16__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_16__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_17__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_17__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_19__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_19__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_23__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_23__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_37__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_16_37__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_18_09__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_06_2020_18_09__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/form_education.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/form_education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvsite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cvsite/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +102,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" nameIsGenerated="true">
+    <configuration name="cvsite" type="Python.DjangoServer" factoryName="Django server">
       <module name="OOSL_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,7 +110,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="OOSL_project.settings" />
       </envs>
-      <option name="SDK_HOME" value="D:\Program Files\Python37\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\Dev\AppData\Local\Programs\Python\Python38-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -121,6 +142,7 @@
       <workItem from="1593083890039" duration="20952000" />
       <workItem from="1593390830062" duration="1129000" />
       <workItem from="1593397875407" duration="37053000" />
+      <workItem from="1593457544819" duration="2873000" />
     </task>
     <task id="LOCAL-00001" summary="everything in english">
       <created>1592484157793</created>
@@ -281,10 +303,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="752" y="383" key="#Scopes/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593098805900" />
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592482951966">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="4303" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593457599286">
+      <screen x="3902" y="0" width="1858" height="1080" />
     </state>
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1592482951966" />
+    <state x="4303" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/78.0.1458.864/1982.0.1858.1080/3902.0.1858.1080@3902.0.1858.1080" timestamp="1593457599286" />
     <state x="722" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592483389979">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -307,34 +330,38 @@
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593454921522" />
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050/-1920.584.1920.1080@0.0.1920.1050" timestamp="1593441281963" />
-    <state width="1877" height="326" key="GridCell.Tab.0.bottom" timestamp="1593455435608">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1815" height="213" key="GridCell.Tab.0.bottom" timestamp="1593458260565">
+      <screen x="3902" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="326" key="GridCell.Tab.0.bottom/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593455435608" />
     <state width="1877" height="303" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.584.1920.1080@0.0.1920.1050" timestamp="1593443561806" />
     <state width="1877" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.639.1920.1080/1920.-317.1920.1080@0.0.1920.1050" timestamp="1593433088703" />
     <state width="1877" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1593447768872" />
-    <state width="1877" height="326" key="GridCell.Tab.0.center" timestamp="1593455435608">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1815" height="213" key="GridCell.Tab.0.bottom/78.0.1458.864/1982.0.1858.1080/3902.0.1858.1080@3902.0.1858.1080" timestamp="1593458260565" />
+    <state width="1815" height="213" key="GridCell.Tab.0.center" timestamp="1593458260565">
+      <screen x="3902" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="326" key="GridCell.Tab.0.center/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593455435608" />
     <state width="1877" height="303" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.584.1920.1080@0.0.1920.1050" timestamp="1593443561805" />
     <state width="1877" height="232" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.639.1920.1080/1920.-317.1920.1080@0.0.1920.1050" timestamp="1593433088702" />
     <state width="1877" height="326" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1593447768872" />
-    <state width="1877" height="326" key="GridCell.Tab.0.left" timestamp="1593455435608">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1815" height="213" key="GridCell.Tab.0.center/78.0.1458.864/1982.0.1858.1080/3902.0.1858.1080@3902.0.1858.1080" timestamp="1593458260565" />
+    <state width="1815" height="213" key="GridCell.Tab.0.left" timestamp="1593458260565">
+      <screen x="3902" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="326" key="GridCell.Tab.0.left/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593455435608" />
     <state width="1877" height="303" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.584.1920.1080@0.0.1920.1050" timestamp="1593443561805" />
     <state width="1877" height="232" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.639.1920.1080/1920.-317.1920.1080@0.0.1920.1050" timestamp="1593433088702" />
     <state width="1877" height="326" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1593447768871" />
-    <state width="1877" height="326" key="GridCell.Tab.0.right" timestamp="1593455435608">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1815" height="213" key="GridCell.Tab.0.left/78.0.1458.864/1982.0.1858.1080/3902.0.1858.1080@3902.0.1858.1080" timestamp="1593458260565" />
+    <state width="1815" height="213" key="GridCell.Tab.0.right" timestamp="1593458260565">
+      <screen x="3902" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="326" key="GridCell.Tab.0.right/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593455435608" />
     <state width="1877" height="303" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.584.1920.1080@0.0.1920.1050" timestamp="1593443561806" />
     <state width="1877" height="232" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.639.1920.1080/1920.-317.1920.1080@0.0.1920.1050" timestamp="1593433088703" />
     <state width="1877" height="326" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1593447768872" />
+    <state width="1815" height="213" key="GridCell.Tab.0.right/78.0.1458.864/1982.0.1858.1080/3902.0.1858.1080@3902.0.1858.1080" timestamp="1593458260565" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1593441125540">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -390,11 +417,12 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="454" y="199" width="980" height="751" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1050/-1920.584.1920.1080@0.0.1920.1050" timestamp="1593440508339" />
-    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593418063460">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="4646" y="451" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593457680658">
+      <screen x="3902" y="0" width="1858" height="1080" />
     </state>
     <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593103680482" />
     <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/-1920.639.1920.1080/1920.-317.1920.1080@0.0.1920.1050" timestamp="1593418063460" />
+    <state x="4646" y="451" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/78.0.1458.864/1982.0.1858.1080/3902.0.1858.1080@3902.0.1858.1080" timestamp="1593457680658" />
     <state x="667" y="124" width="585" height="801" key="find.popup" timestamp="1593456303323">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

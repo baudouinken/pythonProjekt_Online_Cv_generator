@@ -397,3 +397,7 @@ def check_edu(request):
     dt = Data.objects.get(user=usr)
     dt_id = dt.id
     return redirect('education', data=dt_id)
+
+
+def test():
+    return False
