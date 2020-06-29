@@ -29,7 +29,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cvsite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cvsite/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/template1/template1_language.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template1/template1_language.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/template1/template1_skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template1/template1_skills.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/template2/template2_language.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template2/template2_language.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/template2/template2_skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template2/template2_skills.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/template3/template3_language.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template3/template3_language.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/template3/template3_skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template3/template3_skills.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/template4/template4_language.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template4/template4_language.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/template4/template4_skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template4/template4_skills.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/generate_cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/generate_cv.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,10 +73,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/base.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/template1/template1_skills.html" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/templates/base.html" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/static/template1/template1_skills.html" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -328,14 +336,14 @@
     <state x="408" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1593447988177" />
     <state x="2098" y="0" key="CommitChangelistDialog2/78.0.1458.864/1982.0.1858.1080/3902.0.1858.1080@1982.0.1858.1080" timestamp="1593460743551" />
     <state x="4018" y="0" key="CommitChangelistDialog2/78.0.1458.864/1982.0.1858.1080/3902.0.1858.1080@3902.0.1858.1080" timestamp="1593467026599" />
-    <state x="92" y="92" width="1736" height="866" maximized="true" key="DiffContextDialog" timestamp="1593470036895">
+    <state x="123" y="-18" width="1736" height="866" maximized="true" key="DiffContextDialog" timestamp="1593472675111">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="92" y="92" width="1736" height="866" maximized="true" key="DiffContextDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593470036895" />
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1593469786599">
+    <state x="123" y="-18" width="1736" height="866" maximized="true" key="DiffContextDialog/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593472675111" />
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1593472647275">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593469786599" />
+    <state x="740" y="279" key="FileChooserDialogImpl/-1920.584.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593472647275" />
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050/-1920.584.1920.1080@0.0.1920.1050" timestamp="1593441281963" />
     <state x="2698" y="287" key="FileChooserDialogImpl/78.0.1458.864/1982.0.1858.1080/3902.0.1858.1080@1982.0.1858.1080" timestamp="1593462157487" />
     <state width="1877" height="299" key="GridCell.Tab.0.bottom" timestamp="1593469967488">

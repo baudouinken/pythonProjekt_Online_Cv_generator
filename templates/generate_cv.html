@@ -100,7 +100,7 @@
             skills.forEach((s, i) => {
                 if(i === 0) {
                     $("iframe").contents().find(".text-skills").text(s)
-                    $("iframe").contents().find(".progress-bar").css("width", ""+levels[i]*10+"%")
+                    $("iframe").contents().find(".pgb").css("width", ""+levels[i]*10+"%")
                 }
                 else {
                     $("iframe").contents().find(".pg").each((index, element) => {
@@ -110,8 +110,8 @@
                             newSkillText = $(element).find(".text-skills:first-child").clone()
                             newSkillText.text(s)
                         }
-                        else newSkill.find(".progress-bar").text(s)
-                        newSkill.find(".progress-bar").css("width", ""+levels[i]*10+"%")
+                        else newSkill.find(".pgb").text(s)
+                        newSkill.find(".pgb").css("width", ""+levels[i]*10+"%")
                         if(newSkillText){
                             var newDiv = $('<div/>', {"class": 'row'})
                             var newDiv2 = $('<div/>', {"class": 'col-8'})
@@ -121,6 +121,42 @@
                             newDiv.appendTo($(element).parent())
                         }
                         else newSkill.appendTo($(element).parent())
+                        $(element).parent().html($(element).parent().html()+"<br>")
+                    })
+                }
+            })
+
+            //initialize Languages
+            var languages = []
+            var levels = []
+            {% for lang in languages %}
+                languages.push("{{ lang.language }}")
+                levels.push({{ lang.level }})
+            {% endfor %}
+            languages.forEach((s, i) => {
+                if(i === 0) {
+                    $("iframe").contents().find(".text-language").text(s)
+                    $("iframe").contents().find(".pgb-l").css("width", ""+levels[i]*10+"%")
+                }
+                else {
+                    $("iframe").contents().find(".pg-l").each((index, element) => {
+                        var newLang = $(element).find(".progress-l:first-child").clone()
+                        var newLangText;
+                        if($(element).find(".text-language").length !== 0) {
+                            newLangText = $(element).find(".text-language:first-child").clone()
+                            newLangText.text(s)
+                        }
+                        else newLang.find(".pgb-l").text(s)
+                        newLang.find(".pgb-l").css("width", ""+levels[i]*10+"%")
+                        if(newLangText){
+                            var newDiv = $('<div/>', {"class": 'row'})
+                            var newDiv2 = $('<div/>', {"class": 'col-8'})
+                            newLangText.appendTo(newDiv)
+                            newLang.appendTo(newDiv2)
+                            newDiv2.appendTo(newDiv)
+                            newDiv.appendTo($(element).parent())
+                        }
+                        else newLang.appendTo($(element).parent())
                         $(element).parent().html($(element).parent().html()+"<br>")
                     })
                 }
@@ -188,37 +224,30 @@
             {% if cv %}
 
                 $("#carouselPhoto").find(".carousel-item").each((i,el) => {
-                    console.log("yaaa")
                     if($(el).find("iframe").attr("src") === "{{ cv.template_photo }}") $(el).addClass("active")
                     if($(el).find("iframe").hasClass("active") && $(el).find("iframe").attr("src") !== "{{ cv.template_photo }}") $(el).removeClass("active")
                 })
                 $("#carouselName").find(".carousel-item").each((i,el) => {
-                    console.log("yaaa")
                     if($(el).find("iframe").attr("src") === "{{ cv.template_name }}") $(el).addClass("active")
                     if($(el).find("iframe").hasClass("active") && $(el).find("iframe").attr("src") !== "{{ cv.template_name }}") $(el).removeClass("active")
                 })
                 $("#carouselAdress").find(".carousel-item").each((i,el) => {
-                    console.log("yaaa")
                     if($(el).find("iframe").attr("src") === "{{ cv.template_adresse }}") $(el).addClass("active")
                     if($(el).find("iframe").hasClass("active") && $(el).find("iframe").attr("src") !== "{{ cv.template_adresse }}") $(el).removeClass("active")
                 })
                 $("#carouselExperience").find(".carousel-item").each((i,el) => {
-                    console.log("yaaa")
                     if($(el).find("iframe").attr("src") === "{{ cv.template_experience }}") $(el).addClass("active")
                     if($(el).find("iframe").hasClass("active") && $(el).find("iframe").attr("src") !== "{{ cv.template_experience }}") $(el).removeClass("active")
                 })
                 $("#carouselEducation").find(".carousel-item").each((i,el) => {
-                    console.log("yaaa")
                     if($(el).find("iframe").attr("src") === "{{ cv.template_education }}") $(el).addClass("active")
                     if($(el).find("iframe").hasClass("active") && $(el).find("iframe").attr("src") !== "{{ cv.template_education }}") $(el).removeClass("active")
                 })
                 $("#carouselSkills").find(".carousel-item").each((i,el) => {
-                    console.log("yaaa")
                     if($(el).find("iframe").attr("src") === "{{ cv.template_skills }}") $(el).addClass("active")
                     if($(el).find("iframe").hasClass("active") && $(el).find("iframe").attr("src") !== "{{ cv.template_skills }}") $(el).removeClass("active")
                 })
                 $("#carouselLanguage").find(".carousel-item").each((i,el) => {
-                    console.log("yaaa")
                     if($(el).find("iframe").attr("src") === "{{ cv.template_language }}") $(el).addClass("active")
                     if($(el).find("iframe").hasClass("active") && $(el).find("iframe").attr("src") !== "{{ cv.template_language }}") $(el).removeClass("active")
                 })

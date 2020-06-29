@@ -22,7 +22,7 @@ def mycvs(request):
         data = Data.objects.get(user=request.user)
         return render(request, 'mycvs.html', {'page_title': 'My CVs', 'cvs': cvs, 'data': data})
     except Data.DoesNotExist:
-        messages.error(request, 'You don\'t have Data.')
+        messages.error(request, 'Please insert your data first.')
         return redirect('user_data')
 
 
@@ -47,7 +47,12 @@ def get_cv_generator(request, pk=None):
         "Language": ['template1/template1_language.html', 'template2/template2_language.html',
                      'template3/template3_language.html', 'template4/template4_language.html']
     }
-    data = Data.objects.get(user=request.user)
+    try:
+        data = Data.objects.get(user=request.user)
+    except Data.DoesNotExist:
+        messages.error(request, 'Please insert your data first.')
+        return redirect('user_data')
+
     try:
         cv = Cv.objects.get(pk=pk)  # old cv from mycvs
         form = CVForm(instance=cv)
@@ -183,7 +188,7 @@ def check_lang(request):
         dt_id = dt.id
         return redirect('language', data=dt_id)
     except Data.DoesNotExist:
-        messages.error(request, 'You don\'t have Data.')
+        messages.error(request, 'Please insert your data first.')
         return redirect('user_data')
 
 
@@ -254,7 +259,7 @@ def check_skill(request):
         dt_id = dt.id
         return redirect('skill', data=dt_id)
     except Data.DoesNotExist:
-        messages.error(request, 'You don\'t have Data.')
+        messages.error(request, 'Please insert your data first.')
         return redirect('user_data')
 
 
@@ -327,7 +332,7 @@ def check_exp(request):
         dt_id = dt.id
         return redirect('experience', data=dt_id)
     except Data.DoesNotExist:
-        messages.error(request, 'You don\'t have Data.')
+        messages.error(request, 'Please insert your data first.')
         return redirect('user_data')
 
 
@@ -427,5 +432,5 @@ def check_edu(request):
         dt_id = dt.id
         return redirect('education', data=dt_id)
     except Data.DoesNotExist:
-        messages.error(request, 'You don\'t have Data.')
+        messages.error(request, 'Please insert your data first.')
         return redirect('user_data')
