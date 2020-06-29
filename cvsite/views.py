@@ -14,6 +14,7 @@ import pdfkit
 def get_home(request):
     return render(request, 'home.html', {'page_title': 'Home CV Generator'})
 
+
 def mycvs(request):
     cvs = Cv.objects.filter(user=request.user)
     data = Data.objects.get(user=request.user)
@@ -33,7 +34,8 @@ def get_cv_generator(request):
     else:
         ids = ['Photo', 'Name', 'Adress', 'Skills', 'About', 'Experience', 'Education', 'Language']
         templates = {
-            "Photo": ['template1/template1_photo.html', 'template2/template2_photo.html', 'template3/template3_photo.html',
+            "Photo": ['template1/template1_photo.html', 'template2/template2_photo.html',
+                      'template3/template3_photo.html',
                       'template4/template4_photo.html'],
             "Name": ['template1/template1_name.html', 'template2/template2_name.html', 'template3/template3_name.html',
                      'template4/template4_name.html'],
@@ -41,7 +43,8 @@ def get_cv_generator(request):
                        'template3/template3_adress.html', 'template4/template4_adress.html'],
             "Skills": ['template1/template1_skills.html', 'template2/template2_skills.html',
                        'template3/template3_skills.html', 'template4/template4_skills.html'],
-            "About": ['template1/template1_about.html', 'template2/template2_about.html', 'template3/template3_about.html',
+            "About": ['template1/template1_about.html', 'template2/template2_about.html',
+                      'template3/template3_about.html',
                       'template4/template4_about.html'],
             "Experience": ['template1/template1_experience.html', 'template2/template2_experience.html',
                            'template3/template3_experience.html', 'template4/template4_experience.html'],
@@ -70,7 +73,7 @@ def get_cv_generator(request):
 def save_cv(request):
     if request.method == 'POST':
         form = CVForm(request.POST)
-        #if form.is_valid():
+        # if form.is_valid():
         cv = form.save(commit=False)
         cv.user = request.user
         cv.save()
@@ -78,8 +81,8 @@ def save_cv(request):
     # formdata = request.POST
     # print(formdata.get('html'))
     #
-    # config = pdfkit.configuration(
-    #     wkhtmltopdf='D:\\Benutzer\\Norman\\Uni\\Semester4\\Objektorientierte Skriptsprachen\\Semesterprojekt\\pythonProjekt_Online_Cv_generator\\cvsite\\wkhtmltopdf\\bin\\wkhtmltopdf.exe')
+    # config = pdfkit.configuration( wkhtmltopdf='D:\\Benutzer\\Norman\\Uni\\Semester4\\Objektorientierte
+    # Skriptsprachen\\Semesterprojekt\\pythonProjekt_Online_Cv_generator\\cvsite\\wkhtmltopdf\\bin\\wkhtmltopdf.exe')
     #
     # pdfkit.from_string(formdata.get('html'), 'out.pdf', configuration=config)
     # pdf = open("out.pdf")
@@ -130,6 +133,7 @@ def data_view(request):
             dt = form.save(commit=False)
             dt.user = request.user
             dt.save()
+            messages.success(request, 'Data saved')
             data_id = dt.id
             return redirect('language', data=data_id)
     else:
@@ -158,6 +162,7 @@ def language_view(request, data=None):
                 lg = form.save(commit=False)
                 lg.data_id = data
                 lg.save()
+                messages.success(request, 'Language saved')
                 return redirect('language', data=data)
     else:
         form = LanguageForm()
@@ -192,6 +197,7 @@ def language_edit(request, data=None, pk=None):
                 lg = form.save(commit=False)
                 lg.data_id = data
                 lg.save()
+                messages.success(request, 'Language edited')
                 return redirect('language', data=data)
     else:
         form = LanguageForm(instance=lg)
@@ -206,6 +212,7 @@ def language_delete(request, data=None, pk=None):
 
     if lg:
         lg.delete()
+        messages.warning(request, 'Language deleted')
         return redirect('language', data=data)
     else:
         form = LanguageForm()
@@ -222,6 +229,7 @@ def skill_view(request, data=None):
                 sk = form.save(commit=False)
                 sk.data_id = data
                 sk.save()
+                messages.success(request, 'Skill saved')
                 return redirect('skill', data=data)
     else:
         form = SkillForm()
@@ -250,6 +258,7 @@ def skill_delete(request, data=None, pk=None):
 
     if sk:
         sk.delete()
+        messages.warning(request, 'Skill deleted')
         return redirect('skill', data=data)
     else:
         form = SkillForm()
@@ -270,6 +279,7 @@ def skill_edit(request, data=None, pk=None):
                 sk = form.save(commit=False)
                 sk.data_id = data
                 sk.save()
+                messages.success(request, 'Skill edited')
                 return redirect('skill', data=data)
     else:
         form = SkillForm(instance=sk)
@@ -288,6 +298,7 @@ def experience_view(request, data=None):
                 exp = form.save(commit=False)
                 exp.data_id = data
                 exp.save()
+                messages.success(request, 'Experience saved')
                 return redirect('experience', data=data)
     else:
         form = ExperienceForm()
@@ -316,6 +327,7 @@ def experience_del(request, data=None, pk=None):
 
     if exp:
         exp.delete()
+        messages.warning(request, 'Experience deleted')
         return redirect('experience', data=data)
     else:
         form = SkillForm()
@@ -336,6 +348,7 @@ def experience_edit(request, data=None, pk=None):
                 exp = form.save(commit=False)
                 exp.data_id = data
                 exp.save()
+                messages.success(request, 'Experience edited')
                 return redirect('experience', data=data)
     else:
         form = ExperienceForm(instance=exp)
@@ -352,6 +365,7 @@ def education_view(request, data=None):
                 edu = form.save(commit=False)
                 edu.data_id = data
                 edu.save()
+                messages.success(request, 'Education saved')
                 return redirect('education', data=data)
     else:
         form = EducationForm()
@@ -366,6 +380,7 @@ def education_del(request, data=None, pk=None):
 
     if edu:
         edu.delete()
+        messages.warning(request, 'Education deleted')
         return redirect('education', data=data)
     else:
         form = EducationForm()
@@ -386,6 +401,7 @@ def education_edit(request, data=None, pk=None):
                 edu = form.save(commit=False)
                 edu.data_id = data
                 edu.save()
+                messages.success(request, 'Education edited')
                 return redirect('education', data=data)
     else:
         form = EducationForm(instance=edu)
@@ -397,7 +413,3 @@ def check_edu(request):
     dt = Data.objects.get(user=usr)
     dt_id = dt.id
     return redirect('education', data=dt_id)
-
-
-def test():
-    return False
