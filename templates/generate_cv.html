@@ -46,7 +46,7 @@
             <form action="" method="post" enctype="multipart/form-data">
                 {% csrf_token %}
                 {% bootstrap_form form %}
-                <button type="submit" class="btn btn-lg btn-primary" style="width: 120px" onclick="save()">Save</button>
+                <button type="submit" class="btn btn-lg btn-primary" style="width: 120px" onclick="saveCV()">Save</button>
             </form>
         </div>
     </div>
@@ -60,7 +60,7 @@
                     {% if id == key %}
                         {% for template in value %}
                             edu += "<div class=\"carousel-item\">\n" +
-                                "<iframe src=\"../static/{{ template }}\" class=\"d-block w-100\" " +
+                                "<iframe src=\"../../static/{{ template }}\" class=\"d-block w-100\" " +
                                 "frameborder=\"0\" ></iframe>\n" +
                                 "</div>\n"
                         {% endfor %}
@@ -81,6 +81,7 @@
 
         $(function(){
             $(".form-group").hide()
+            $('<input id="saveinfo" type="hidden" name="save" value="save">').insertBefore($("form").find("button"))
 
             //initialize content of iframes
             $("iframe").contents().find(".image").attr("src", "{{ data.picture.url }}")
@@ -183,6 +184,45 @@
                 }
             })
 
+            //restore position if showing old cv
+            {% if cv %}
+
+                $("#carouselPhoto").find(".carousel-item").each((i,el) => {
+                    console.log("yaaa")
+                    if($(el).find("iframe").attr("src") === "{{ cv.template_photo }}") $(el).addClass("active")
+                    if($(el).find("iframe").hasClass("active") && $(el).find("iframe").attr("src") !== "{{ cv.template_photo }}") $(el).removeClass("active")
+                })
+                $("#carouselName").find(".carousel-item").each((i,el) => {
+                    console.log("yaaa")
+                    if($(el).find("iframe").attr("src") === "{{ cv.template_name }}") $(el).addClass("active")
+                    if($(el).find("iframe").hasClass("active") && $(el).find("iframe").attr("src") !== "{{ cv.template_name }}") $(el).removeClass("active")
+                })
+                $("#carouselAdress").find(".carousel-item").each((i,el) => {
+                    console.log("yaaa")
+                    if($(el).find("iframe").attr("src") === "{{ cv.template_adresse }}") $(el).addClass("active")
+                    if($(el).find("iframe").hasClass("active") && $(el).find("iframe").attr("src") !== "{{ cv.template_adresse }}") $(el).removeClass("active")
+                })
+                $("#carouselExperience").find(".carousel-item").each((i,el) => {
+                    console.log("yaaa")
+                    if($(el).find("iframe").attr("src") === "{{ cv.template_experience }}") $(el).addClass("active")
+                    if($(el).find("iframe").hasClass("active") && $(el).find("iframe").attr("src") !== "{{ cv.template_experience }}") $(el).removeClass("active")
+                })
+                $("#carouselEducation").find(".carousel-item").each((i,el) => {
+                    console.log("yaaa")
+                    if($(el).find("iframe").attr("src") === "{{ cv.template_education }}") $(el).addClass("active")
+                    if($(el).find("iframe").hasClass("active") && $(el).find("iframe").attr("src") !== "{{ cv.template_education }}") $(el).removeClass("active")
+                })
+                $("#carouselSkills").find(".carousel-item").each((i,el) => {
+                    console.log("yaaa")
+                    if($(el).find("iframe").attr("src") === "{{ cv.template_skills }}") $(el).addClass("active")
+                    if($(el).find("iframe").hasClass("active") && $(el).find("iframe").attr("src") !== "{{ cv.template_skills }}") $(el).removeClass("active")
+                })
+                $("#carouselLanguage").find(".carousel-item").each((i,el) => {
+                    console.log("yaaa")
+                    if($(el).find("iframe").attr("src") === "{{ cv.template_language }}") $(el).addClass("active")
+                    if($(el).find("iframe").hasClass("active") && $(el).find("iframe").attr("src") !== "{{ cv.template_language }}") $(el).removeClass("active")
+                })
+            {% endif %}
 
             // resize iframes on start when DOM loaded
             $('.carousel-item.active iframe').each(function() {
@@ -199,7 +239,7 @@
             })
         })
 
-        function save() {
+        function saveCV() {
             var activeTemplates = $(".carousel-item.active")
 
             var photo, name, adress, language, experience, education, skills;

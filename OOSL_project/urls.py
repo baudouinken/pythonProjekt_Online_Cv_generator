@@ -25,6 +25,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', get_home, name='home_page'),
     path('generate_cv/', get_cv_generator, name='generatecv'),
+    path('generate_cv/<pk>/', get_cv_generator, name='generatecv'),
+
     path('mycvs/', mycvs, name='mycvs'),
 
     path('signup/', signup_view, name='signup'),

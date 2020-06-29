@@ -14,6 +14,8 @@ import pdfkit
 def get_home(request):
     return render(request, 'home.html', {'page_title': 'Home CV Generator'})
 
+
+@login_required(login_url="/login")
 def mycvs(request):
     cvs = Cv.objects.filter(user=request.user)
     data = Data.objects.get(user=request.user)
@@ -21,60 +23,57 @@ def mycvs(request):
 
 
 @login_required(login_url="/login")
-def get_cv_generator(request):
-    if request.method == 'POST':
-        print(request.POST)
-        form = CVForm(request.POST)
-        if form.is_valid():
-            cv = form.save(commit=False)
-            cv.user = request.user
-            cv.save()
-            return redirect('home_page')
-    else:
-        ids = ['Photo', 'Name', 'Adress', 'Skills', 'About', 'Experience', 'Education', 'Language']
-        templates = {
-            "Photo": ['template1/template1_photo.html', 'template2/template2_photo.html', 'template3/template3_photo.html',
-                      'template4/template4_photo.html'],
-            "Name": ['template1/template1_name.html', 'template2/template2_name.html', 'template3/template3_name.html',
-                     'template4/template4_name.html'],
-            "Adress": ['template1/template1_adress.html', 'template2/template2_adress.html',
-                       'template3/template3_adress.html', 'template4/template4_adress.html'],
-            "Skills": ['template1/template1_skills.html', 'template2/template2_skills.html',
-                       'template3/template3_skills.html', 'template4/template4_skills.html'],
-            "About": ['template1/template1_about.html', 'template2/template2_about.html', 'template3/template3_about.html',
-                      'template4/template4_about.html'],
-            "Experience": ['template1/template1_experience.html', 'template2/template2_experience.html',
-                           'template3/template3_experience.html', 'template4/template4_experience.html'],
-            "Education": ['template1/template1_education.html', 'template2/template2_education.html',
-                          'template3/template3_education.html', 'template4/template4_education.html'],
-            "Language": ['template1/template1_language.html', 'template2/template2_language.html',
-                         'template3/template3_language.html', 'template4/template4_language.html']
-        }
-        data = Data.objects.get(user=request.user)
+def get_cv_generator(request, pk=None):
+    ids = ['Photo', 'Name', 'Adress', 'Skills', 'About', 'Experience', 'Education', 'Language']
+    templates = {
+        "Photo": ['template1/template1_photo.html', 'template2/template2_photo.html', 'template3/template3_photo.html',
+                  'template4/template4_photo.html'],
+        "Name": ['template1/template1_name.html', 'template2/template2_name.html', 'template3/template3_name.html',
+                 'template4/template4_name.html'],
+        "Adress": ['template1/template1_adress.html', 'template2/template2_adress.html',
+                   'template3/template3_adress.html', 'template4/template4_adress.html'],
+        "Skills": ['template1/template1_skills.html', 'template2/template2_skills.html',
+                   'template3/template3_skills.html', 'template4/template4_skills.html'],
+        "About": ['template1/template1_about.html', 'template2/template2_about.html', 'template3/template3_about.html',
+                  'template4/template4_about.html'],
+        "Experience": ['template1/template1_experience.html', 'template2/template2_experience.html',
+                       'template3/template3_experience.html', 'template4/template4_experience.html'],
+        "Education": ['template1/template1_education.html', 'template2/template2_education.html',
+                      'template3/template3_education.html', 'template4/template4_education.html'],
+        "Language": ['template1/template1_language.html', 'template2/template2_language.html',
+                     'template3/template3_language.html', 'template4/template4_language.html']
+    }
+    data = Data.objects.get(user=request.user)
+    try:
+        cv = Cv.objects.get(pk=pk)  # old cv from mycvs
+        form = CVForm(instance=cv)
+    except Cv.DoesNotExist:
+        cv = False
+        form = CVForm()  # standard
 
-        try:
-            dt = Data.objects.get(user=request.user)
-            form = CVForm(instance=dt)
-        except Data.DoesNotExist:
-            form = CVForm()
-        return render(request, 'generate_cv.html',
-                      {'page_title': 'Generate your CV', 'ids': ids, 'templates': templates,
-                       'data': data,
-                       'skills': Skill.objects.filter(data=data),
-                       'languages': Language.objects.filter(data=data),
-                       'experience': Experience.objects.filter(data=data),
-                       'education': Education.objects.filter(data=data),
-                       'form': form})
+    if request.method == 'POST':
+        if 'save' in request.POST:  # save
+            form = CVForm(request.POST)
+            if form.is_valid():
+                cv_new = form.save(commit=False)
+                cv_new.user = request.user
+                cv_new.save()
+                return redirect('mycvs')
+            else:  # error
+                return redirect('generatecv')
+    return render(request, 'generate_cv.html',
+                  {'page_title': 'Generate your CV', 'ids': ids, 'templates': templates,
+                   'data': data,
+                   'skills': Skill.objects.filter(data=data),
+                   'languages': Language.objects.filter(data=data),
+                   'experience': Experience.objects.filter(data=data),
+                   'education': Education.objects.filter(data=data),
+                   'form': form,
+                   'cv': cv})
 
 
 def save_cv(request):
-    if request.method == 'POST':
-        form = CVForm(request.POST)
-        #if form.is_valid():
-        cv = form.save(commit=False)
-        cv.user = request.user
-        cv.save()
-    return render(request, 'home.html', {'form': form})
+    return render(request, 'home.html', {'form': "d"})
     # formdata = request.POST
     # print(formdata.get('html'))
     #
