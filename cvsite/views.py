@@ -83,19 +83,6 @@ def get_cv_generator(request, pk=None):
                    'cv': cv})
 
 
-def save_cv(request):
-    return render(request, 'home.html', {'form': "d"})
-    # formdata = request.POST
-    # print(formdata.get('html'))
-    #
-    # config = pdfkit.configuration(
-    #     wkhtmltopdf='D:\\Benutzer\\Norman\\Uni\\Semester4\\Objektorientierte Skriptsprachen\\Semesterprojekt\\pythonProjekt_Online_Cv_generator\\cvsite\\wkhtmltopdf\\bin\\wkhtmltopdf.exe')
-    #
-    # pdfkit.from_string(formdata.get('html'), 'out.pdf', configuration=config)
-    # pdf = open("out.pdf")
-    # HttpResponse(pdf.read(), content_type='application/pdf')
-
-
 def signup_view(request):
     if request.method == 'POST':
         form = UserCreationForm(request.POST)
