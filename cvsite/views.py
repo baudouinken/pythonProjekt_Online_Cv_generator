@@ -8,14 +8,15 @@ from django.contrib.auth import login, logout
 from django.contrib.auth.decorators import login_required
 
 
-
 # Create your views here.
 # home page
 def get_home(request):
     return render(request, 'home.html', {'page_title': 'Home CV Generator'})
 
+
 def about_us(request):
     return render(request, 'Aboutus.html', {'page_title': 'About Us'})
+
 
 @login_required(login_url="/login")
 def mycvs(request):
@@ -140,10 +141,14 @@ def data_view(request):
 
 
 def next_data(request):
-    usr = request.user
-    dt = Data.objects.get(user=usr)
-    dt_id = dt.id
-    return redirect('language', data=dt_id)
+    try:
+        usr = request.user
+        dt = Data.objects.get(user=usr)
+        dt_id = dt.id
+        return redirect('language', data=dt_id)
+    except Data.DoesNotExist:
+        messages.error(request, 'Please insert your data first.')
+        return redirect('user_data')
 
 
 # Sprachen
@@ -164,10 +169,14 @@ def language_view(request, data=None):
 
 
 def next_lang(request):
-    usr = request.user
-    dt = Data.objects.get(user=usr)
-    dt_id = dt.id
-    return redirect('skill', data=dt_id)
+    try:
+        usr = request.user
+        dt = Data.objects.get(user=usr)
+        dt_id = dt.id
+        return redirect('skill', data=dt_id)
+    except Data.DoesNotExist:
+        messages.error(request, 'Please insert your data first.')
+        return redirect('user_data')
 
 
 def check_lang(request):
@@ -235,10 +244,14 @@ def skill_view(request, data=None):
 
 
 def next_skill(request):
-    usr = request.user
-    dt = Data.objects.get(user=usr)
-    dt_id = dt.id
-    return redirect('experience', data=dt_id)
+    try:
+        usr = request.user
+        dt = Data.objects.get(user=usr)
+        dt_id = dt.id
+        return redirect('experience', data=dt_id)
+    except Data.DoesNotExist:
+        messages.error(request, 'Please insert your data first.')
+        return redirect('user_data')
 
 
 def check_skill(request):
@@ -308,10 +321,14 @@ def experience_view(request, data=None):
 
 
 def next_exp(request):
-    usr = request.user
-    dt = Data.objects.get(user=usr)
-    dt_id = dt.id
-    return redirect('education', data=dt_id)
+    try:
+        usr = request.user
+        dt = Data.objects.get(user=usr)
+        dt_id = dt.id
+        return redirect('education', data=dt_id)
+    except Data.DoesNotExist:
+        messages.error(request, 'Please insert your data first.')
+        return redirect('user_data')
 
 
 def check_exp(request):
