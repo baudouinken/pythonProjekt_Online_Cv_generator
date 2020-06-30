@@ -26,28 +26,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ec1a5e4-34db-40e0-8033-5e93b07e1793" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cvsite/migrations/0002_cv_cv_name.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cvsite/migrations/0003_auto_20200630_0213.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/1_yeCBUzZ.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Nbi7bYI.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/baudouin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lebenslaufbilder.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Aboutus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/OOSL_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OOSL_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8afa51e8-b604-4a6b-8128-b9331023a6af.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/MasterD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/Skills.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/boris.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/norman.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOSL_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOSL_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/cvsite/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0002_cv_cv_name.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvsite/migrations/0003_auto_20200630_0213.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cvsite/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cvsite/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cvsite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cvsite/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/template1/template1_adress.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template1/template1_adress.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/template1/template1_name.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template1/template1_name.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Aboutus.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/generate_cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/generate_cv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,10 +85,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/img" />
+      <recent name="$PROJECT_DIR$/media" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="D:\Benutzer\Norman\Uni\Semester4\Objektorientierte Skriptsprachen\Semesterprojekt\pythonProjekt_Online_Cv_generator\cvsite" />
       <recent name="D:\Benutzer\Norman\Uni\Semester4\Objektorientierte Skriptsprachen\Semesterprojekt\pythonProjekt_Online_Cv_generator" />
-      <recent name="D:\Benutzer\Norman\Uni\Semester4\Objektorientierte Skriptsprachen\Semesterprojekt\pythonProjekt_Online_Cv_generator\OOSL_project" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates" />
