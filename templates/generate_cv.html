@@ -21,14 +21,18 @@
         #carouselName{
             text-align: right;
         }
+
+        .form-group {
+            display: none;
+        }
     </style>
  {% endblock %}
 
 
 {% block content %}
 
-    <h2 class="text-center display-3 mb-5"> {{ page_title }}</h2>
-
+    <h2 class="text-center display-3 mb-5 title"></h2>
+    <br>
     <div class="container">
         <!-- Top -->
         <div class="row cv">
@@ -84,8 +88,15 @@
         {% endfor %}
 
         $(function(){
-            $(".form-group").hide()
+            $("#id_name").parent().show().css("width","40%").css("margin","auto").css("margin-bottom","30px")
+            $("#id_description").parent().show().css("width","40%").css("margin","auto").css("margin-bottom","30px")
             $('<input id="saveinfo" type="hidden" name="save" value="save">').insertBefore($("form").find("button"))
+            {% if cv %}
+                $("form").hide();
+                $(".title").text("{{ cv.name }}")
+            {% else %}
+                $(".title").text("Choose your Design!")
+            {% endif %}
 
             //initialize content of iframes
             $("iframe").contents().find(".image").attr("src", "{{ data.picture.url }}")
@@ -226,7 +237,6 @@
 
             //restore position if showing old cv
             {% if cv %}
-
                 $("#carouselPhoto").find(".carousel-item").each((i,el) => {
                     if($(el).find("iframe").attr("src") === "{{ cv.template_photo }}") $(el).addClass("active")
                     if($(el).find("iframe").hasClass("active") && $(el).find("iframe").attr("src") !== "{{ cv.template_photo }}") $(el).removeClass("active")
@@ -255,6 +265,7 @@
                     if($(el).find("iframe").attr("src") === "{{ cv.template_language }}") $(el).addClass("active")
                     if($(el).find("iframe").hasClass("active") && $(el).find("iframe").attr("src") !== "{{ cv.template_language }}") $(el).removeClass("active")
                 })
+                $(".carousel-control-prev, .carousel-control-next").hide()
             {% endif %}
 
             // resize iframes on start when DOM loaded

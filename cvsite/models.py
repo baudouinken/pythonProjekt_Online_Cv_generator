@@ -1,8 +1,11 @@
 from django.db import models
 from django.contrib.auth.models import User
 
-
 # Create your models here.
+from django.utils import timezone
+
+from cvsite import fields
+
 
 class Data(models.Model):
     firstname = models.CharField(max_length=30, blank=False)
@@ -25,7 +28,7 @@ class Data(models.Model):
 
 class Language(models.Model):
     language = models.CharField(max_length=20, blank=False)
-    level = models.CharField(max_length=30, blank=False)
+    level = fields.IntegerRangeField("Level - from 0 - 10", min_value=0, max_value=10, default=0)
     data = models.ForeignKey(Data, on_delete=models.CASCADE)
 
 
@@ -48,11 +51,13 @@ class Experience(models.Model):
 
 class Skill(models.Model):
     skill = models.CharField(max_length=100)
-    level = models.CharField(max_length=50)
+    level = fields.IntegerRangeField("Level - from 0 - 10", min_value=0, max_value=10, default=0)
     data = models.ForeignKey(Data, on_delete=models.CASCADE)
 
 
 class Cv(models.Model):
+    name = models.CharField(max_length=30, default='unnamed')
+    description = models.CharField(max_length=100, default='', blank=True)
     template_adresse = models.CharField(max_length=100)
     template_education = models.CharField(max_length=100)
     template_experience = models.CharField(max_length=100)
@@ -61,4 +66,4 @@ class Cv(models.Model):
     template_photo = models.CharField(max_length=100)
     template_skills = models.CharField(max_length=100)
     user = models.ForeignKey(User, default=None, on_delete=models.CASCADE)
-    #cv_name = models.CharField(max_length=100, default='None')
+    datetime = models.DateTimeField(default=timezone.now)

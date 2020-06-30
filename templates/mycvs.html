@@ -24,12 +24,12 @@
                       <img class="card-img-top" style="max-height: 100px; width: 100%; object-fit: cover; object-position: center;"
                            src="{{ data.picture.url }}" alt="Card image cap">
                       <div class="card-body">
-                        <h4 class="card-title">{{ forloop.counter }}</h4>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h4 class="card-title">{{ cv.name }}</h4>
+                        <p class="card-text">{{ cv.description }}</p>
                         <a href="{% url 'generatecv' cv.id%}" class="btn btn-primary" style="width: 100px">Show</a>
                       </div>
                       <div class="card-footer">
-                        <small class="text-muted">Datum</small>
+                        <small class="text-muted">Created {{ cv.datetime }}</small>
                       </div>
                     </div>
 
