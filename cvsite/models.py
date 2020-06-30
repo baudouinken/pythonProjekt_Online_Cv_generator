@@ -61,3 +61,4 @@ class Cv(models.Model):
     template_photo = models.CharField(max_length=100)
     template_skills = models.CharField(max_length=100)
     user = models.ForeignKey(User, default=None, on_delete=models.CASCADE)
+    #cv_name = models.CharField(max_length=100, default='None')

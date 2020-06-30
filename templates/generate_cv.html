@@ -17,6 +17,10 @@
         .carousel-control-prev-icon {
             background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
         }
+
+        #carouselName{
+            text-align: right;
+        }
     </style>
  {% endblock %}
 
@@ -60,7 +64,7 @@
                     {% if id == key %}
                         {% for template in value %}
                             edu += "<div class=\"carousel-item\">\n" +
-                                "<iframe src=\"../../static/{{ template }}\" class=\"d-block w-100\" " +
+                                "<iframe src=\"../../static/{{ template }}\" scrolling=\"no\" class=\"d-block  w-100\" " +
                                 "frameborder=\"0\" ></iframe>\n" +
                                 "</div>\n"
                         {% endfor %}

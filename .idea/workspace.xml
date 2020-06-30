@@ -25,19 +25,29 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa702f20-b0de-42cf-9633-c14ab4f6d473" name="Default Changelist" comment="Bootstrap message und mycvs">
+    <list default="true" id="2ec1a5e4-34db-40e0-8033-5e93b07e1793" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cvsite/migrations/0002_cv_cv_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cvsite/migrations/0003_auto_20200630_0213.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/1_yeCBUzZ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Nbi7bYI.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/baudouin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lebenslaufbilder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Aboutus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/OOSL_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OOSL_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8afa51e8-b604-4a6b-8128-b9331023a6af.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOSL_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOSL_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvsite/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cvsite/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cvsite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cvsite/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/template1/template1_language.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template1/template1_language.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/template1/template1_skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template1/template1_skills.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/template2/template2_language.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template2/template2_language.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/template2/template2_skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template2/template2_skills.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/template3/template3_language.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template3/template3_language.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/template3/template3_skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template3/template3_skills.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/template4/template4_language.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template4/template4_language.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/template4/template4_skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template4/template4_skills.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/template1/template1_adress.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template1/template1_adress.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/template1/template1_name.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/template1/template1_name.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/generate_cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/generate_cv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,31 +73,37 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1dUc5Vi2Fc7LUEksRzkckH0J8yv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/template1/template1_skills.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/img" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/static/template1/template1_skills.html" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Benutzer\Norman\Uni\Semester4\Objektorientierte Skriptsprachen\Semesterprojekt\pythonProjekt_Online_Cv_generator\templates" />
-      <recent name="D:\Benutzer\Norman\Uni\Semester4\Objektorientierte Skriptsprachen\Semesterprojekt\pythonProjekt_Online_Cv_generator\cvsite" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/img" />
+      <recent name="$PROJECT_DIR$/static" />
       <recent name="D:\Benutzer\Norman\Uni\Semester4\Objektorientierte Skriptsprachen\Semesterprojekt\pythonProjekt_Online_Cv_generator\cvsite" />
       <recent name="D:\Benutzer\Norman\Uni\Semester4\Objektorientierte Skriptsprachen\Semesterprojekt\pythonProjekt_Online_Cv_generator" />
       <recent name="D:\Benutzer\Norman\Uni\Semester4\Objektorientierte Skriptsprachen\Semesterprojekt\pythonProjekt_Online_Cv_generator\OOSL_project" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
       <recent name="D:\Benutzer\Norman\Uni\Semester4\Objektorientierte Skriptsprachen\Semesterprojekt\pythonProjekt_Online_Cv_generator\templates" />
+      <recent name="D:\Benutzer\Norman\Uni\Semester4\Objektorientierte Skriptsprachen\Semesterprojekt\pythonProjekt_Online_Cv_generator\cvsite" />
     </key>
   </component>
   <component name="RunManager">
@@ -286,6 +302,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="everything in english" />
     <MESSAGE value="started connecting the generator with the user data" />
     <MESSAGE value="SKILLS ARE SHOWN!!!" />

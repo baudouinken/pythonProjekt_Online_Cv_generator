@@ -28,6 +28,7 @@ urlpatterns = [
     path('generate_cv/<pk>/', get_cv_generator, name='generatecv'),
 
     path('mycvs/', mycvs, name='mycvs'),
+    path('aboutUs/', about_us, name='about_us'),
 
     path('signup/', signup_view, name='signup'),
     path('login/', login_view, name='login'),

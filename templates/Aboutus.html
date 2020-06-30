@@ -1,0 +1,152 @@
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+{% load static %}
+
+{% block style %}
+
+    <style>
+
+        *{margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+
+
+        .team-section{
+            overflow: hidden;
+            text-align: center;
+            background-color: transparent;
+            background-image: url('../static/Nbi7bYI.jpg');
+            padding: 60px;
+            border-radius: 15px;
+            transition: 1s;
+        }
+
+        .team-section:hover{
+            box-shadow: -1px -3px 33px 15px rgba(0,0,0,0.24);
+        }
+
+        .team-section h1{
+            text-transform: uppercase;
+            margin-bottom: 60px;
+            color: black;
+            font-size: 60px;
+            font-family:"Times New Roman",sans-serif ;
+        }
+        .border{
+            display:block;
+            width: 160px;
+            height: 3px;
+            background: black;
+            margin: auto auto 40px;
+
+        }
+        .ps{
+            margin-bottom: 40px ;
+        }
+
+        .ps a{
+            display: inline-block;
+            margin: 0 30px;
+            width: 180px;
+            height: 180px;
+            overflow: hidden;
+            border-radius: 100px;
+
+
+        }
+        .ps a img{
+            width: 100%;
+            filter: grayscale(100%);
+            transition: 0.4s all;
+
+        }
+        .ps a:hover > img{
+            filter:none;
+
+
+        }
+        .section{
+            width:600px;
+            margin:auto;
+            font-size: 20px;
+            font-family: "Times New Roman",sans-serif;
+            color: white;
+            text-decoration-color: beige;
+            text-align: justify;
+            height: 0px;
+            overflow: hidden;
+        }
+        .section:target{
+            height:auto;
+        }
+        .name{
+            display: block;
+            margin-bottom: 30px;
+            text-align:center;
+            text-transform:uppercase;
+            font-size:22px;
+
+        }
+       </style>
+ {% endblock %}
+
+{% block content %}
+
+
+
+<div class="team-section mt-5">
+    <h1>The Team</h1>
+    <span class="border"></span>
+
+    <div class="ps">
+        <a href="#p1"><img src="../static/img/baudouin.jpg"/></a>
+        <a href="#p2"><img src="../static/img/baudouin.jpg" alt=""></a>
+        <a href="#p3"><img src="../static/lebenslaufbilder.jpg" alt=""></a>
+        <a href="#p4"><img src="../static/lebenslaufbilder.jpg" alt=""></a>
+    </div>
+    <div class="section" id="p1">
+        <span class="name">Baudouin Keunne</span>
+        <span class="border"></span>
+        <p>Student an der Technische Hochschule Brandenburg
+        </p> <p>Bachelor in Informatik
+    </p>
+
+
+    </div>
+    <div>
+        <div class="section" id="p2">
+            <span class="name">Boris Dovonon</span>
+            <span class="border"></span>
+            <p>Student an der Technische Hochschule Brandenburg
+            </p> <p>Bachelor in Informatik
+        </p>
+
+
+
+        </div>
+</div>
+     <div class="section" id="p3">
+        <span class="name">Hermione Ngueyep</span>
+        <span class="border"></span>
+         <p>Studentin an der Technische Hochschule Brandenburg
+     </p> <p>Bachelor in Informatik
+     </p>
+
+
+
+     </div>
+    <div class="section" id="p4">
+        <span class="name">Norman Schmidth</span>
+        <span class="border"></span>
+        <p>Student an der Technische Hochschule Brandenburg
+    </p> <p>Bachelor in Informatik
+    </p>
+
+
+    </div>
+
+</div>
+{% endblock %}
+

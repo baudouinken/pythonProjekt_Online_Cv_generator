@@ -6,7 +6,7 @@ from .forms import *
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib.auth import login, logout
 from django.contrib.auth.decorators import login_required
-import pdfkit
+
 
 
 # Create your views here.
@@ -14,6 +14,8 @@ import pdfkit
 def get_home(request):
     return render(request, 'home.html', {'page_title': 'Home CV Generator'})
 
+def about_us(request):
+    return render(request, 'Aboutus.html', {'page_title': 'About Us'})
 
 @login_required(login_url="/login")
 def mycvs(request):
